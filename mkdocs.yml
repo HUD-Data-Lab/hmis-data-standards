@@ -20,7 +20,7 @@ nav:
   - Data Dictionary:
       - Elements:
           - Overview: elements-index.md
-          - All Elements: "elements/*.md"
+          - All Elements: "/elements/"
   - Value Lists:
       - Overview: value-lists-index.md
-      - All Value Lists: "value-lists/*.md"
+      - All Value Lists: "/value-lists/"

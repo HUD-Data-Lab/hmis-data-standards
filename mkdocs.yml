@@ -17,14 +17,16 @@ plugins:
 
 nav:
   - Home: index.md
+
   - Data Dictionary:
       - Elements:
           - Overview: elements/index.md
-          - Elements:
+          - All Elements:
               - type: glob
                 glob: "elements/*.md"
+
   - Value Lists:
       - Overview: value-lists/index.md
-      - Lists:
+      - All Value Lists:
           - type: glob
             glob: "value-lists/*.md"

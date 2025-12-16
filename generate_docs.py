@@ -34,6 +34,7 @@ count = 0
 
 for path in sorted(ELEMENTS_DIR.glob("*.yaml")):
     element = yaml.safe_load(path.read_text())
+    elements.append(element)
     if not element:
         continue
 
@@ -49,7 +50,6 @@ for path in sorted(ELEMENTS_DIR.glob("*.yaml")):
 
     md = f"""# {title}
 
-    elements.append(element)
 
 **Status:** {status}
 

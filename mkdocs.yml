@@ -1,5 +1,5 @@
 site_name: HMIS Data Standards (Prototype)
-
+site_url: https://hud-data-lab.github.io/hmis-data-standards
 theme:
   name: material
   features:

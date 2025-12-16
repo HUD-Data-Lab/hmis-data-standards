@@ -25,6 +25,8 @@ DOCS_DIR = Path("docs/elements")
 
 DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
+elements = []
+
 def md_escape(value):
     return value if value is not None else ""
 
@@ -46,6 +48,8 @@ for path in sorted(ELEMENTS_DIR.glob("*.yaml")):
     title = f"{hmis_id} — {name}" if hmis_id else name
 
     md = f"""# {title}
+
+    elements.append(element)
 
 **Status:** {status}
 
@@ -85,5 +89,16 @@ for path in sorted(ELEMENTS_DIR.glob("*.yaml")):
         f.write(md)
 
     count += 1
+
+with mkdocs_gen_files.open("elements-index.md", "w") as f:
+    f.write("# Data Elements\n\n")
+    f.write("| Element | HMIS ID | Type |\n")
+    f.write("|--------|---------|------|\n")
+
+    for el in elements:
+        name = el.get("name", "")
+        hmis_id = el.get("hmis_id", "")
+        type_ = el.get("type", "")
+        f.write(f"| [{name}](./{name}.md) | {hmis_id} | {type_} |\n")
 
 print(f"Generated {count} element documentation pages.")

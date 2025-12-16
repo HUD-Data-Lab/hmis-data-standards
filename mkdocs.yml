@@ -15,20 +15,12 @@ plugins:
         - generate_docs.py
   - macros
 
-
 nav:
   - Home: index.md
   - Data Dictionary:
-      - Elements: 
-          - 'All Elements': elements/index.md
-          - !!accordion "Elements Tree":
-              'Elements': 
-                - type: glob
-                  glob: "elements/*.md"
+      - Elements:
+          - Overview: elements-index.md
+          - All Elements: "/elements/"
   - Value Lists:
-      - 'All Value Lists': value-lists/index.md
-      - !!accordion "Lists Tree":
-          'Lists':
-            - type: glob
-              glob: "value-lists/*.md"
-
+      - Overview: value-lists-index.md
+      - All Value Lists: "/value-lists/"

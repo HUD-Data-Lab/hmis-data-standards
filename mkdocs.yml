@@ -5,8 +5,11 @@ theme:
 
 plugins:
   - search
+  - gen-files:
+      scripts:
+        - generate_docs.py
   - macros
-  - gen-files
+
 
 nav:
   - Home: index.md

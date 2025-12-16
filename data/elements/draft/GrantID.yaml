@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: GrantID
+description: Grant identifier
+type: string
+sources:
+- openapi_schema: funderBase
+  openapi_field: GrantID
+notes:
+  curation: ''

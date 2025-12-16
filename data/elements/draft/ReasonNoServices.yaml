@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ReasonNoServices
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: ReasonNoServices
+notes:
+  curation: ''
+value_list: ReasonNoServices

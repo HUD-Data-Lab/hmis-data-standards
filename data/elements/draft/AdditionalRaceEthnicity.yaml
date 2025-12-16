@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: AdditionalRaceEthnicity
+description: ''
+type: string
+sources:
+- openapi_schema: clientBase
+  openapi_field: AdditionalRaceEthnicity
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: PhysicalDisabilityFam
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: PhysicalDisabilityFam
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

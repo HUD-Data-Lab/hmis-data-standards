@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: HouseholdID
+description: ''
+type: string
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: HouseholdID
+notes:
+  curation: ''

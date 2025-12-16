@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: HealthAndDVID
+description: ''
+type: string
+sources:
+- openapi_schema: healthAndDVPrimaryKey
+  openapi_field: HealthAndDVID
+notes:
+  curation: ''

@@ -1,0 +1,15 @@
+status: draft
+id: RRHSubType
+description: Subtypes for Rapid Re-Housing projects.
+type: integer
+values:
+- value: 1
+  label: SERVICES_ONLY
+  description: 'RRH: Services Only'
+- value: 2
+  label: HOUSING_WITH_OR_WITHOUT_SERVICES
+  description: 'RRH: Housing with or without services'
+source:
+  openapi_schema: RRHSubType_list
+notes:
+  curation: ''

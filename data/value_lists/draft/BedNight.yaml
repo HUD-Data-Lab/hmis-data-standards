@@ -1,0 +1,12 @@
+status: draft
+id: BedNight
+description: Represents a single night of bed occupancy.
+type: integer
+values:
+- value: 200
+  label: BED_NIGHT
+  description: null
+source:
+  openapi_schema: BedNight_list
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ResourcesToObtain
+description: Resources to obtain (if LeaveSituation14Days = 1)
+type: integer
+sources:
+- openapi_schema: currentLivingSituationBase
+  openapi_field: ResourcesToObtain
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

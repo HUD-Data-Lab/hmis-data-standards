@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: InPersonIndividual
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: InPersonIndividual
+notes:
+  curation: ''
+value_list: NoYesMissing

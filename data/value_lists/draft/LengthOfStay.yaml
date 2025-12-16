@@ -1,0 +1,36 @@
+status: draft
+id: LengthOfStay
+description: Indicates the length of the client's stay.
+type: integer
+values:
+- value: 2
+  label: ONE_WEEK_TO_ONE_MONTH
+  description: One week or more, but less than one month
+- value: 3
+  label: ONE_MONTH_TO_90_DAYS
+  description: One month or more, but less than 90 days
+- value: 4
+  label: 90_DAYS_TO_ONE_YEAR
+  description: 90 days or more but less than one year
+- value: 5
+  label: ONE_YEAR_OR_LONGER
+  description: One year or longer
+- value: 10
+  label: ONE_NIGHT_OR_LESS
+  description: One night or less
+- value: 11
+  label: TWO_TO_SIX_NIGHTS
+  description: Two to six nights
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: LengthOfStay_list
+notes:
+  curation: ''

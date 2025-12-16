@@ -1,0 +1,22 @@
+status: draft
+id: DependentUnder6
+description: Presence and age of youngest child under six years in the household.
+type: integer
+values:
+- value: 0
+  label: 'NO'
+  description: 'No'
+- value: 1
+  label: YOUNGEST_UNDER_1_YEAR
+  description: Youngest child is under 1 year old
+- value: 2
+  label: YOUNGEST_1_TO_6_YEARS
+  description: Youngest child is 1 to 6 years old and/or one or more children (any
+    age) require significant care
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: DependentUnder6_list
+notes:
+  curation: ''

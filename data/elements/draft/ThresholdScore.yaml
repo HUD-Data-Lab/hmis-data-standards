@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: ThresholdScore
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: ThresholdScore
+notes:
+  curation: ''

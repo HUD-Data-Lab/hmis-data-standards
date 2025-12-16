@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: AssessmentType
+description: ''
+type: integer
+sources:
+- openapi_schema: assessmentBase
+  openapi_field: AssessmentType
+notes:
+  curation: ''
+value_list: AssessmentType

@@ -1,0 +1,31 @@
+status: draft
+id: WhenDVOccurred
+description: Specifies when domestic violence occurred relative to the Information
+  date.
+type: integer
+values:
+- value: 1
+  label: WITHIN_THREE_MONTHS
+  description: Within the past three months
+- value: 2
+  label: THREE_TO_SIX_MONTHS_AGO
+  description: Three to six months ago (excluding six months exactly)
+- value: 3
+  label: SIX_MONTHS_TO_ONE_YEAR_AGO
+  description: Six months to one year ago (excluding one year exactly)
+- value: 4
+  label: ONE_YEAR_OR_MORE
+  description: One year or more
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: WhenDVOccurred_list
+notes:
+  curation: ''

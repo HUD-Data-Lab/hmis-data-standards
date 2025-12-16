@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: PrivatePay
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: PrivatePay
+notes:
+  curation: ''
+value_list: NoYesMissing

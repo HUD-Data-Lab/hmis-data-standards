@@ -1,0 +1,36 @@
+status: draft
+id: SexualOrientation
+description: Sexual orientation of the client.
+type: integer
+values:
+- value: 1
+  label: HETEROSEXUAL
+  description: Heterosexual
+- value: 2
+  label: GAY
+  description: Gay
+- value: 3
+  label: LESBIAN
+  description: Lesbian
+- value: 4
+  label: BISEXUAL
+  description: Bisexual
+- value: 5
+  label: QUESTIONING_UNSURE
+  description: Questioning / unsure
+- value: 6
+  label: OTHER
+  description: Other
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: SexualOrientation_list
+notes:
+  curation: ''

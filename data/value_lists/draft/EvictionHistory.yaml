@@ -1,0 +1,21 @@
+status: draft
+id: EvictionHistory
+description: History of rental evictions for the individual.
+type: integer
+values:
+- value: 0
+  label: NO_PRIOR_RENTAL_EVICTIONS
+  description: No prior rental evictions
+- value: 1
+  label: 1_PRIOR_RENTAL_EVICTION
+  description: 1 prior rental eviction
+- value: 2
+  label: 2_OR_MORE_PRIOR_RENTAL_EVICTIONS
+  description: 2 or more prior rental evictions
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: EvictionHistory_list
+notes:
+  curation: ''

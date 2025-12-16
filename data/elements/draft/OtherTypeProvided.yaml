@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: OtherTypeProvided
+description: Other type provided (if RecordType = 144 and TypeProvided = 6 or RecordType
+  = 210 and TypeProvided = 12)
+type: string
+sources:
+- openapi_schema: servicesBase
+  openapi_field: OtherTypeProvided
+notes:
+  curation: ''

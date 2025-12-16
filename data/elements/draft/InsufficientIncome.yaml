@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: InsufficientIncome
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: InsufficientIncome
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

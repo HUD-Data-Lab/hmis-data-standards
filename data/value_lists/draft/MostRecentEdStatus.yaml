@@ -1,0 +1,42 @@
+status: draft
+id: MostRecentEdStatus
+description: Most recent education status in K12 or higher education.
+type: integer
+values:
+- value: 0
+  label: K12_GRADUATED
+  description: 'K12: Graduated from high school'
+- value: 1
+  label: K12_OBTAINED_GED
+  description: 'K12: Obtained GED'
+- value: 2
+  label: K12_DROPPED_OUT
+  description: 'K12: Dropped out'
+- value: 3
+  label: K12_SUSPENDED
+  description: 'K12: Suspended'
+- value: 4
+  label: K12_EXPELLED
+  description: 'K12: Expelled'
+- value: 5
+  label: HIGHER_ED_PURSUING_CREDENTIAL_NOT_ATTENDING
+  description: 'Higher education: Pursuing a credential but not currently attending'
+- value: 6
+  label: HIGHER_ED_DROPPED_OUT
+  description: 'Higher education: Dropped out'
+- value: 7
+  label: HIGHER_ED_OBTAINED_CREDENTIAL
+  description: 'Higher education: Obtained a credential/degree'
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: MostRecentEdStatus_list
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: HH5Plus
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: HH5Plus
+notes:
+  curation: ''
+value_list: NoYesMissing

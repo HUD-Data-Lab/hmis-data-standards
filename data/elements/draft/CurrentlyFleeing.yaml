@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: CurrentlyFleeing
+description: ''
+type: integer
+sources:
+- openapi_schema: healthAndDVBase
+  openapi_field: CurrentlyFleeing
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

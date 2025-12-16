@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: PrivateDisabilityAmount
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: PrivateDisabilityAmount
+notes:
+  curation: ''

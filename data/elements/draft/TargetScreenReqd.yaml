@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: TargetScreenReqd
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: TargetScreenReqd
+notes:
+  curation: ''
+value_list: NoYesMissing

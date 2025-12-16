@@ -1,0 +1,54 @@
+status: draft
+id: ReferralSource
+description: Sources from which referrals are received.
+type: integer
+values:
+- value: 1
+  label: SELF_REFERRAL
+  description: Self-Referral
+- value: 2
+  label: INDIVIDUAL_REFERRAL
+  description: 'Individual: Parent/Guardian/Relative/Friend/Foster Parent/Other Individual'
+- value: 7
+  label: OUTREACH_PROJECT
+  description: Outreach Project
+- value: 11
+  label: TEMPORARY_SHELTER
+  description: Temporary Shelter
+- value: 18
+  label: RESIDENTIAL_PROJECT
+  description: Residential Project
+- value: 28
+  label: HOTLINE
+  description: Hotline
+- value: 30
+  label: CHILD_WELFARE_CPS
+  description: Child Welfare/CPS
+- value: 34
+  label: JUVENILE_JUSTICE
+  description: Juvenile Justice
+- value: 35
+  label: LAW_ENFORCEMENT_POLICE
+  description: Law Enforcement/ Police
+- value: 37
+  label: MENTAL_HOSPITAL
+  description: Mental Hospital
+- value: 38
+  label: SCHOOL
+  description: School
+- value: 39
+  label: OTHER_ORGANIZATION
+  description: Other Organization
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: ReferralSource_list
+notes:
+  curation: ''

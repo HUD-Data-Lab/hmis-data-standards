@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: SSN
+description: Social Security Number
+type: string
+sources:
+- openapi_schema: clientBase
+  openapi_field: SSN
+notes:
+  curation: ''

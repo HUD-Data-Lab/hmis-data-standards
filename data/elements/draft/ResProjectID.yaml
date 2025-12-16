@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: ResProjectID
+description: ''
+type: string
+sources:
+- openapi_schema: affiliationBase
+  openapi_field: ResProjectID
+notes:
+  curation: ''

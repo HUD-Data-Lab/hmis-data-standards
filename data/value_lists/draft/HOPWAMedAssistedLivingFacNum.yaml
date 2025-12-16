@@ -1,0 +1,18 @@
+status: draft
+id: HOPWAMedAssistedLivingFacNum
+description: Defines whether a project is a HOPWA-funded medical assisted living facility.
+type: integer
+values:
+- value: 0
+  label: 'NO'
+  description: Not a HOPWA-funded medical assisted living facility.
+- value: 1
+  label: 'YES'
+  description: Yes, HOPWA-funded medical assisted living facility.
+- value: 2
+  label: NON_HOPWA_FUNDED_PROJECT
+  description: Non-HOPWA funded project
+source:
+  openapi_schema: HOPWAMedAssistedLivingFacNum_list
+notes:
+  curation: ''

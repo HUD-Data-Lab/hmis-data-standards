@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: AssessmentAnswer
+description: Assessment answer (locally determined)
+type: string
+sources:
+- openapi_schema: assessmentQuestionsBase
+  openapi_field: AssessmentAnswer
+notes:
+  curation: ''

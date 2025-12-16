@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ESBedType
+description: ''
+type: integer
+sources:
+- openapi_schema: inventoryBase
+  openapi_field: ESBedType
+notes:
+  curation: ''
+value_list: BedType

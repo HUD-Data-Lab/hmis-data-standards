@@ -1,0 +1,54 @@
+status: draft
+id: LastGradeCompleted
+description: The last grade level completed by the client.
+type: integer
+values:
+- value: 1
+  label: LESS_THAN_GRADE_5
+  description: Less than grade 5
+- value: 2
+  label: GRADES_5_6
+  description: Grades 5-6
+- value: 3
+  label: GRADES_7_8
+  description: Grades 7-8
+- value: 4
+  label: GRADES_9_11
+  description: Grades 9-11
+- value: 5
+  label: GRADE_12
+  description: Grade 12
+- value: 6
+  label: SCHOOL_PROGRAM_NO_GRADE_LEVELS
+  description: School program does not have grade levels
+- value: 7
+  label: GED
+  description: GED
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 10
+  label: SOME_COLLEGE
+  description: Some college
+- value: 11
+  label: ASSOCIATES_DEGREE
+  description: Associate's degree
+- value: 12
+  label: BACHELORS_DEGREE
+  description: Bachelor's degree
+- value: 13
+  label: GRADUATE_DEGREE
+  description: Graduate degree
+- value: 14
+  label: VOCATIONAL_CERTIFICATION
+  description: Vocational certification
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: LastGradeCompleted_list
+notes:
+  curation: ''

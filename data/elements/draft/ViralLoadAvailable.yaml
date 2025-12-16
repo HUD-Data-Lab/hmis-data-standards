@@ -1,0 +1,12 @@
+status: draft
+hmis_id: null
+name: ViralLoadAvailable
+description: Viral load available (if DisabilityType = 8 AND DisabilityResponse =
+  1)
+type: integer
+sources:
+- openapi_schema: disabilitiesBase
+  openapi_field: ViralLoadAvailable
+notes:
+  curation: ''
+value_list: ViralLoadAvailable

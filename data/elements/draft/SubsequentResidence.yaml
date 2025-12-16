@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: SubsequentResidence
+description: Subsequent residence (if LeaveSituation14Days = 1)
+type: integer
+sources:
+- openapi_schema: currentLivingSituationBase
+  openapi_field: SubsequentResidence
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

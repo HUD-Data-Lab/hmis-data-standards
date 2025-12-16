@@ -1,0 +1,36 @@
+status: draft
+id: DischargeStatus
+description: Military discharge status.
+type: integer
+values:
+- value: 1
+  label: HONORABLE
+  description: Honorable
+- value: 2
+  label: GENERAL_UNDER_HONORABLE_CONDITIONS
+  description: General under honorable conditions
+- value: 4
+  label: BAD_CONDUCT
+  description: Bad conduct
+- value: 5
+  label: DISHONORABLE
+  description: Dishonorable
+- value: 6
+  label: UNDER_OTHER_THAN_HONORABLE_CONDITIONS
+  description: Under other than honorable conditions (OTH)
+- value: 7
+  label: UNCHARACTERIZED
+  description: Uncharacterized
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: DischargeStatus_list
+notes:
+  curation: ''

@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: InventoryStartDate
+description: ''
+type: string
+sources:
+- openapi_schema: inventoryBase
+  openapi_field: InventoryStartDate
+notes:
+  curation: ''

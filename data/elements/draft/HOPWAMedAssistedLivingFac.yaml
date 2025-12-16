@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: HOPWAMedAssistedLivingFac
+description: ''
+type: integer
+sources:
+- openapi_schema: projectBase
+  openapi_field: HOPWAMedAssistedLivingFac
+notes:
+  curation: ''
+value_list: HOPWAMedAssistedLivingFacNum

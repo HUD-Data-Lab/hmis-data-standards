@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: DestinationSafeWorker
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: DestinationSafeWorker
+notes:
+  curation: ''
+value_list: WorkerResponse

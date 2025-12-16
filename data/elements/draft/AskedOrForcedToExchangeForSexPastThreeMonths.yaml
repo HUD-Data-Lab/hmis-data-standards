@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: AskedOrForcedToExchangeForSexPastThreeMonths
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: AskedOrForcedToExchangeForSexPastThreeMonths
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

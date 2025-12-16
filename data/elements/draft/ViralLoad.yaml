@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: ViralLoad
+description: Viral load (if ViralLoadAvailable = 1)
+type: integer
+sources:
+- openapi_schema: disabilitiesBase
+  openapi_field: ViralLoad
+notes:
+  curation: ''

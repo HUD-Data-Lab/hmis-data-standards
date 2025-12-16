@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: ServicesID
+description: Unique identifier
+type: string
+sources:
+- openapi_schema: servicesPrimaryKey
+  openapi_field: ServicesID
+notes:
+  curation: ''

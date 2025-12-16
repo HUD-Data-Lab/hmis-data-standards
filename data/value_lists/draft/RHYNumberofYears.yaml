@@ -1,0 +1,18 @@
+status: draft
+id: RHYNumberofYears
+description: Years formerly a ward of Child Welfare or Foster Care Agency.
+type: integer
+values:
+- value: 1
+  label: LESS_THAN_ONE_YEAR
+  description: Less than one year
+- value: 2
+  label: ONE_TO_TWO_YEARS
+  description: 1 to 2 years
+- value: 3
+  label: THREE_TO_FIVE_OR_MORE_YEARS
+  description: 3 to 5 or more years
+source:
+  openapi_schema: RHYNumberofYears_list
+notes:
+  curation: ''

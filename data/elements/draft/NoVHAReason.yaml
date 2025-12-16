@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: NoVHAReason
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: NoVHAReason
+notes:
+  curation: ''
+value_list: ReasonNotInsured

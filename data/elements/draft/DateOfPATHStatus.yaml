@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: DateOfPATHStatus
+description: ''
+type: string
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: DateOfPATHStatus
+notes:
+  curation: ''

@@ -1,0 +1,21 @@
+status: draft
+id: IncarceratedAdult
+description: Incarcerated as adult (any adult in household).
+type: integer
+values:
+- value: 0
+  label: NOT_INCARCERATED
+  description: Not incarcerated
+- value: 1
+  label: INCARCERATED_ONCE
+  description: Incarcerated once
+- value: 2
+  label: INCARCERATED_TWO_OR_MORE_TIMES
+  description: Incarcerated two or more times
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: IncarceratedAdult_list
+notes:
+  curation: ''

@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: InventoryID
+description: ''
+type: string
+sources:
+- openapi_schema: inventoryPrimaryKey
+  openapi_field: InventoryID
+notes:
+  curation: ''

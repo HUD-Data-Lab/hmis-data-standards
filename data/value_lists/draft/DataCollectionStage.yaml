@@ -1,0 +1,24 @@
+status: draft
+id: DataCollectionStage
+description: Stage of data collection within the project lifecycle.
+type: integer
+values:
+- value: 1
+  label: PROJECT_ENTRY
+  description: Project entry
+- value: 2
+  label: UPDATE
+  description: Update
+- value: 3
+  label: PROJECT_EXIT
+  description: Project exit
+- value: 5
+  label: ANNUAL_ASSESSMENT
+  description: Annual assessment
+- value: 5
+  label: POST_EXIT
+  description: Post Exit
+source:
+  openapi_schema: DataCollectionStage_list
+notes:
+  curation: ''

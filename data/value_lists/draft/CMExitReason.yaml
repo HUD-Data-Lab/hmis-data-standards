@@ -1,0 +1,48 @@
+status: draft
+id: CMExitReason
+description: Reasons for exiting case management.
+type: integer
+values:
+- value: 1
+  label: ACCOMPLISHED_GOALS
+  description: Accomplished goals and/or obtained services and no longer needs CM
+- value: 2
+  label: TRANSFERRED_TO_ANOTHER_SITE
+  description: Transferred to another HUD/VASH program site
+- value: 3
+  label: FOUND_OTHER_HOUSING
+  description: Found/chose other housing
+- value: 4
+  label: NON_COMPLIANCE
+  description: Did not comply with HUD/VASH CM
+- value: 5
+  label: EVICTION_ISSUES
+  description: Eviction and/or other housing related issues
+- value: 6
+  label: UNHAPPY_WITH_HOUSING
+  description: Unhappy with HUD/VASH housing
+- value: 7
+  label: NO_LONGER_ELIGIBLE
+  description: No longer financially eligible for HUD/VASH voucher
+- value: 8
+  label: LOST_INTEREST
+  description: No longer interested in participating in this program
+- value: 9
+  label: VETERAN_NOT_LOCATED
+  description: Veteran cannot be located
+- value: 10
+  label: VETERAN_TOO_ILL
+  description: Veteran too ill to participate at this time
+- value: 11
+  label: VETERAN_INCARCERATED
+  description: Veteran is incarcerated
+- value: 12
+  label: VETERAN_DECEASED
+  description: Veteran is deceased
+- value: 13
+  label: OTHER
+  description: Other
+source:
+  openapi_schema: CMExitReason_list
+notes:
+  curation: ''

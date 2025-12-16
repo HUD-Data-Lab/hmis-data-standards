@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: AssessmentQuestionOrder
+description: Assessment question order (locally determined)
+type: integer
+sources:
+- openapi_schema: assessmentQuestionsBase
+  openapi_field: AssessmentQuestionOrder
+notes:
+  curation: ''

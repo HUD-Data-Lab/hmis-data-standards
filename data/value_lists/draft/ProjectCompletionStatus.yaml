@@ -1,0 +1,18 @@
+status: draft
+id: ProjectCompletionStatus
+description: Completion status of the project.
+type: integer
+values:
+- value: 1
+  label: COMPLETED_PROJECT
+  description: Completed project
+- value: 2
+  label: CLIENT_LEFT_EARLY
+  description: Client voluntarily left early
+- value: 3
+  label: CLIENT_WAS_EXPELLED
+  description: Client was expelled or otherwise involuntarily discharged from project
+source:
+  openapi_schema: ProjectCompletionStatus_list
+notes:
+  curation: ''

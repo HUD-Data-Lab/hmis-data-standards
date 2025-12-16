@@ -1,0 +1,33 @@
+status: draft
+id: CurrentEdStatus
+description: Current educational pursuit status.
+type: integer
+values:
+- value: 0
+  label: PURSUING_HIGH_SCHOOL_DIPLOMA_OR_GED
+  description: Pursuing a high school diploma or GED
+- value: 1
+  label: PURSUING_ASSOCIATES_DEGREE
+  description: Pursuing Associate's Degree
+- value: 2
+  label: PURSUING_BACHELORS_DEGREE
+  description: Pursuing Bachelor's Degree
+- value: 3
+  label: PURSUING_GRADUATE_DEGREE
+  description: Pursuing Graduate Degree
+- value: 4
+  label: PURSUING_OTHER_POST_SECONDARY_CREDENTIAL
+  description: Pursuing other post-secondary credential
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: CurrentEdStatus_list
+notes:
+  curation: ''

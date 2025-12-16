@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: CrisisAssessment
+description: ''
+type: integer
+sources:
+- openapi_schema: ceParticipationBase
+  openapi_field: CrisisAssessment
+notes:
+  curation: ''
+value_list: NoYes

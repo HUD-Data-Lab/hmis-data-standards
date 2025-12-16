@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ReferralCaseManageAfter
+description: ''
+type: integer
+sources:
+- openapi_schema: eventBase
+  openapi_field: ReferralCaseManageAfter
+notes:
+  curation: ''
+value_list: NoYesMissing

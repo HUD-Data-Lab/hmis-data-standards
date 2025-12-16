@@ -1,0 +1,21 @@
+status: draft
+id: NotEmployedReason
+description: Reason why the client is not Employed.
+type: integer
+values:
+- value: 1
+  label: LOOKING_FOR_WORK
+  description: Looking for work
+- value: 2
+  label: UNABLE_TO_WORK
+  description: Unable to work
+- value: 3
+  label: NOT_LOOKING_FOR_WORK
+  description: Not looking for work
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: NotEmployedReason_list
+notes:
+  curation: ''

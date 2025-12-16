@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: VADisabilityService
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: VADisabilityService
+notes:
+  curation: ''
+value_list: NoYesMissing

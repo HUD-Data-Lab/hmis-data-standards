@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: CoCPrioritized
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: CoCPrioritized
+notes:
+  curation: ''
+value_list: NoYesMissing

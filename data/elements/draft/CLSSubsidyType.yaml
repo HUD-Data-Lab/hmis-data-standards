@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: CLSSubsidyType
+description: Current living situation subsidy type (if CurrentLivingSituation = 435)
+type: integer
+sources:
+- openapi_schema: currentLivingSituationBase
+  openapi_field: CLSSubsidyType
+notes:
+  curation: ''
+value_list: RentalSubsidyTypes

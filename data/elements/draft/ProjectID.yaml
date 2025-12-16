@@ -1,0 +1,24 @@
+status: draft
+hmis_id: null
+name: ProjectID
+description: ''
+type: string
+sources:
+- openapi_schema: projectPrimaryKey
+  openapi_field: ProjectID
+- openapi_schema: funderBase
+  openapi_field: ProjectID
+- openapi_schema: projectCoCBase
+  openapi_field: ProjectID
+- openapi_schema: inventoryBase
+  openapi_field: ProjectID
+- openapi_schema: affiliationBase
+  openapi_field: ProjectID
+- openapi_schema: hmisParticipationBase
+  openapi_field: ProjectID
+- openapi_schema: ceParticipationBase
+  openapi_field: ProjectID
+- openapi_schema: enrollmentBase
+  openapi_field: ProjectID
+notes:
+  curation: ''

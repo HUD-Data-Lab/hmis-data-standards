@@ -1,0 +1,39 @@
+status: draft
+id: SchoolStatus
+description: Current schooling status of the client.
+type: integer
+values:
+- value: 1
+  label: ATTENDING_SCHOOL_REGULARLY
+  description: Attending school regularly
+- value: 2
+  label: ATTENDING_SCHOOL_IRREGULARLY
+  description: Attending school irregularly
+- value: 3
+  label: GRADUATED_HIGH_SCHOOL
+  description: Graduated from high school
+- value: 4
+  label: OBTAINED_GED
+  description: Obtained GED
+- value: 5
+  label: DROPPED_OUT
+  description: Dropped out
+- value: 6
+  label: SUSPENDED
+  description: Suspended
+- value: 7
+  label: EXPELLED
+  description: Expelled
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: SchoolStatus_list
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: DischargeStatus
+description: ''
+type: integer
+sources:
+- openapi_schema: clientBase
+  openapi_field: DischargeStatus
+notes:
+  curation: ''
+value_list: DischargeStatus

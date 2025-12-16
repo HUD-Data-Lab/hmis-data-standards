@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: VAMCStation
+description: ''
+type: string
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: VAMCStation
+notes:
+  curation: ''
+value_list: VAMCStationNumber

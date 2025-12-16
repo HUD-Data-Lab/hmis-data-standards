@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: LastGradeCompleted
+description: ''
+type: integer
+sources:
+- openapi_schema: employmentEducationBase
+  openapi_field: LastGradeCompleted
+notes:
+  curation: ''
+value_list: LastGradeCompleted

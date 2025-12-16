@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: SubTypeProvided
+description: Subtype provided (if RecordType = 144 and TypeProvided = 3, 4, or 5)
+type: integer
+sources:
+- openapi_schema: servicesBase
+  openapi_field: SubTypeProvided
+notes:
+  curation: ''
+value_list: SSVFSubType5

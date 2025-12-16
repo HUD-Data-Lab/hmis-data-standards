@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: EligibleForRHY
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: EligibleForRHY
+notes:
+  curation: ''
+value_list: NoYesMissing

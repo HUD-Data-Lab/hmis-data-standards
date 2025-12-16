@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: PreviousStreetESSH
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: PreviousStreetESSH
+notes:
+  curation: ''
+value_list: NoYesMissing

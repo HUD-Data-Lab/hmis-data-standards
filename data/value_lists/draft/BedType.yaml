@@ -1,0 +1,18 @@
+status: draft
+id: BedType
+description: Specifies the type of beds available in the housing project.
+type: integer
+values:
+- value: 1
+  label: FACILITY_BASED_BEDS
+  description: Facility-based beds
+- value: 2
+  label: VOUCHER_BEDS
+  description: Voucher beds
+- value: 3
+  label: OTHER_BEDS
+  description: Other types of beds
+source:
+  openapi_schema: BedType
+notes:
+  curation: ''

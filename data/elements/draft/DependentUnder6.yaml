@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: DependentUnder6
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: DependentUnder6
+notes:
+  curation: ''
+value_list: DependentUnder6

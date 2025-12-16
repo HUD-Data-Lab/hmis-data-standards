@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: ProjectName
+description: ''
+type: string
+sources:
+- openapi_schema: projectBase
+  openapi_field: ProjectName
+notes:
+  curation: ''

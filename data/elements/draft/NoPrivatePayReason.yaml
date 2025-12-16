@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: NoPrivatePayReason
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: NoPrivatePayReason
+notes:
+  curation: ''
+value_list: ReasonNotInsured

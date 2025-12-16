@@ -1,0 +1,12 @@
+status: draft
+hmis_id: null
+name: DisabilityResponse
+description: If DisabilityType = 10 use '#/components/schemas/DisabilityResponse',
+  all other DisabilityType use '#/components/schemas/NoYes'
+type: integer
+sources:
+- openapi_schema: disabilitiesBase
+  openapi_field: DisabilityResponse
+notes:
+  curation: ''
+value_list: NoYes

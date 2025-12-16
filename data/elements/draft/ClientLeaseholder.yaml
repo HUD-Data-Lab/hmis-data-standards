@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ClientLeaseholder
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: ClientLeaseholder
+notes:
+  curation: ''
+value_list: NoYesMissing

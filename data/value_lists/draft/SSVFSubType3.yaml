@@ -1,0 +1,21 @@
+status: draft
+id: SSVFSubType3
+description: SSVF SubType for assistance obtaining VA benefits.
+type: integer
+values:
+- value: 1
+  label: VA_VOCATIONAL_REHABILITATION_COUNSELING
+  description: VA vocational and rehabilitation counseling
+- value: 2
+  label: EMPLOYMENT_AND_TRAINING_SERVICES
+  description: Employment and training services
+- value: 3
+  label: EDUCATIONAL_ASSISTANCE
+  description: Educational assistance
+- value: 4
+  label: HEALTH_CARE_SERVICES
+  description: Health care services
+source:
+  openapi_schema: SSVFSubType3_list
+notes:
+  curation: ''

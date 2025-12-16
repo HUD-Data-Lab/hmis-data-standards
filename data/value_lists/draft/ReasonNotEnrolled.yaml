@@ -1,0 +1,18 @@
+status: draft
+id: ReasonNotEnrolled
+description: Reasons why a client was not enrolled in the PATH program.
+type: integer
+values:
+- value: 1
+  label: CLIENT_INELIGIBLE_FOR_PATH
+  description: Client was found ineligible for PATH
+- value: 2
+  label: NOT_ENROLLED_OTHER_REASONS
+  description: Client was not enrolled for other reason(s)
+- value: 3
+  label: UNABLE_TO_LOCATE_CLIENT
+  description: Unable to locate client
+source:
+  openapi_schema: ReasonNotEnrolled_list
+notes:
+  curation: ''

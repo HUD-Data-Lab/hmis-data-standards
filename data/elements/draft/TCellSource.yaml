@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: TCellSource
+description: T-cell source (if TCellCount is not null)
+type: integer
+sources:
+- openapi_schema: disabilitiesBase
+  openapi_field: TCellSource
+notes:
+  curation: ''
+value_list: TCellSourceViralLoadSource

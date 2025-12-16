@@ -1,0 +1,27 @@
+status: draft
+id: DisabilityType
+description: Enumerates types of disabilities.
+type: integer
+values:
+- value: 5
+  label: PHYSICAL_DISABILITY
+  description: Physical Disability.
+- value: 6
+  label: DEVELOPMENTAL_DISABILITY
+  description: Developmental Disability.
+- value: 7
+  label: CHRONIC_HEALTH_CONDITION
+  description: Ongoing health conditions.
+- value: 8
+  label: HIV_AIDS
+  description: HIV or AIDS.
+- value: 9
+  label: MENTAL_HEALTH_DISORDER
+  description: Mental health disorders.
+- value: 10
+  label: SUBSTANCE_USE_DISORDER
+  description: Substance use disorders.
+source:
+  openapi_schema: DisabilityType_list
+notes:
+  curation: ''

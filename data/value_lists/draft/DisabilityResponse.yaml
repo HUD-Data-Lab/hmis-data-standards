@@ -1,0 +1,31 @@
+status: draft
+id: DisabilityResponse
+description: Response regarding disabilities, used if DisabilityType = 10 (Substance
+  Use).
+type: integer
+values:
+- value: 0
+  label: 'NO'
+  description: 'No'
+- value: 1
+  label: ALCOHOL_USE_DISORDER
+  description: Alcohol use disorder
+- value: 2
+  label: DRUG_USE_DISORDER
+  description: Drug use disorder
+- value: 3
+  label: BOTH_ALCOHOL_AND_DRUG_USE_DISORDERS
+  description: Both alcohol and drug use disorders
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: DisabilityResponse_list
+notes:
+  curation: ''

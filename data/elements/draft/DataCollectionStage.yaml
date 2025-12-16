@@ -1,0 +1,19 @@
+status: draft
+hmis_id: null
+name: DataCollectionStage
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: DataCollectionStage
+- openapi_schema: healthAndDVBase
+  openapi_field: DataCollectionStage
+- openapi_schema: employmentEducationBase
+  openapi_field: DataCollectionStage
+- openapi_schema: disabilitiesBase
+  openapi_field: DataCollectionStage
+- openapi_schema: youthEducationStatusBase
+  openapi_field: DataCollectionStage
+notes:
+  curation: ''
+value_list: DataCollectionStage

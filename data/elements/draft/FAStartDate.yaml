@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: FAStartDate
+description: Financial assistance start date (if RecordType = 151 or 152)
+type: string
+sources:
+- openapi_schema: servicesBase
+  openapi_field: FAStartDate
+notes:
+  curation: ''

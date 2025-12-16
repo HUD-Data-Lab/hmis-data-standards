@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: DueDate
+description: ''
+type: string
+sources:
+- openapi_schema: healthAndDVBase
+  openapi_field: DueDate
+notes:
+  curation: ''

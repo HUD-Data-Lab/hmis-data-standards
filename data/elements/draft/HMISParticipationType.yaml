@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: HMISParticipationType
+description: ''
+type: integer
+sources:
+- openapi_schema: hmisParticipationBase
+  openapi_field: HMISParticipationType
+notes:
+  curation: ''

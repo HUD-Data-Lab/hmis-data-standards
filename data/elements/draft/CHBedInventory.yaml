@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: CHBedInventory
+description: ''
+type: integer
+sources:
+- openapi_schema: inventoryBase
+  openapi_field: CHBedInventory
+notes:
+  curation: ''

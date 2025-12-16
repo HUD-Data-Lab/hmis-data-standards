@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: SessionCountAtExit
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: SessionCountAtExit
+notes:
+  curation: ''

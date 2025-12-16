@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: TypeProvided
+description: ''
+type: integer
+sources:
+- openapi_schema: servicesBase
+  openapi_field: TypeProvided
+notes:
+  curation: ''
+value_list: MovingOnAssistance

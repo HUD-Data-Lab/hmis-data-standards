@@ -1,0 +1,33 @@
+status: draft
+id: HealthStatus
+description: General health status of the client.
+type: integer
+values:
+- value: 1
+  label: EXCELLENT
+  description: Excellent
+- value: 2
+  label: VERY_GOOD
+  description: Very good
+- value: 3
+  label: GOOD
+  description: Good
+- value: 4
+  label: FAIR
+  description: Fair
+- value: 5
+  label: POOR
+  description: Poor
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: HealthStatus_list
+notes:
+  curation: ''

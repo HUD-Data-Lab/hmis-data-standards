@@ -1,0 +1,18 @@
+status: draft
+id: ReferralResult
+description: Outcome of the referral process.
+type: integer
+values:
+- value: 1
+  label: SUCCESSFUL_REFERRAL_CLIENT_ACCEPTED
+  description: 'Successful referral: client accepted'
+- value: 2
+  label: UNSUCCESSFUL_REFERRAL_CLIENT_REJECTED
+  description: 'Unsuccessful referral: client rejected'
+- value: 3
+  label: UNSUCCESSFUL_REFERRAL_PROVIDER_REJECTED
+  description: 'Unsuccessful referral: provider rejected'
+source:
+  openapi_schema: ReferralResult_list
+notes:
+  curation: ''

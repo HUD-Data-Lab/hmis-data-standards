@@ -1,0 +1,18 @@
+status: draft
+id: PATHReferralOutcome
+description: Outcomes of referrals made under the PATH program.
+type: integer
+values:
+- value: 1
+  label: ATTAINED
+  description: Attained
+- value: 2
+  label: NOT_ATTAINED
+  description: Not attained
+- value: 3
+  label: UNKNOWN
+  description: Unknown
+source:
+  openapi_schema: PATHReferralOutcome_list
+notes:
+  curation: ''

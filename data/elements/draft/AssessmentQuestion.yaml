@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: AssessmentQuestion
+description: Assessment question (cannot be null if AssessmentQuestions.csv is populated)
+type: string
+sources:
+- openapi_schema: assessmentQuestionsBase
+  openapi_field: AssessmentQuestion
+notes:
+  curation: ''

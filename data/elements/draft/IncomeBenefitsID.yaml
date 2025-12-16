@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: IncomeBenefitsID
+description: ''
+type: string
+sources:
+- openapi_schema: incomeBenefitsPrimaryKey
+  openapi_field: IncomeBenefitsID
+notes:
+  curation: ''

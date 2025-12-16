@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: NameDataQuality
+description: Data quality indicator for name fields
+type: integer
+sources:
+- openapi_schema: clientBase
+  openapi_field: NameDataQuality
+notes:
+  curation: ''
+value_list: NameDataQuality

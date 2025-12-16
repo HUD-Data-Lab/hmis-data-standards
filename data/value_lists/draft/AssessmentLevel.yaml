@@ -1,0 +1,15 @@
+status: draft
+id: AssessmentLevel
+description: Level of assessment for housing needs.
+type: integer
+values:
+- value: 1
+  label: CRISIS_NEEDS_ASSESSMENT
+  description: Crisis Needs Assessment
+- value: 2
+  label: HOUSING_NEEDS_ASSESSMENT
+  description: Housing Needs Assessment
+source:
+  openapi_schema: AssessmentLevel
+notes:
+  curation: ''

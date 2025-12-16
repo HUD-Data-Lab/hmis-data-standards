@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: SSIAmount
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: SSIAmount
+notes:
+  curation: ''

@@ -1,0 +1,18 @@
+status: draft
+id: WorkerResponse
+description: Worker's response to a query or situation.
+type: integer
+values:
+- value: 0
+  label: 'NO'
+  description: 'No'
+- value: 1
+  label: 'YES'
+  description: 'Yes'
+- value: 2
+  label: WORKER_DOES_NOT_KNOW
+  description: Worker does not know
+source:
+  openapi_schema: WorkerResponse_list
+notes:
+  curation: ''

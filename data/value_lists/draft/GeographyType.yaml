@@ -1,0 +1,21 @@
+status: draft
+id: GeographyType
+description: Specifies the geographical setting of the project.
+type: integer
+values:
+- value: 1
+  label: URBAN
+  description: Urban area
+- value: 2
+  label: SUBURBAN
+  description: Suburban area
+- value: 3
+  label: RURAL
+  description: Rural area
+- value: 99
+  label: UNKNOWN_DATA_NOT_COLLECTED
+  description: Unknown or data not collected
+source:
+  openapi_schema: GeographyType
+notes:
+  curation: ''

@@ -1,0 +1,18 @@
+status: draft
+id: Availability
+description: Availability status of the housing project's accommodations.
+type: integer
+values:
+- value: 1
+  label: YEAR_ROUND
+  description: Available year-round
+- value: 2
+  label: SEASONAL
+  description: Seasonally available
+- value: 3
+  label: OVERFLOW
+  description: Overflow accommodations
+source:
+  openapi_schema: Availability
+notes:
+  curation: ''

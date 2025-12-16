@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: FamilyCounseling
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: FamilyCounseling
+notes:
+  curation: ''
+value_list: NoYesMissing

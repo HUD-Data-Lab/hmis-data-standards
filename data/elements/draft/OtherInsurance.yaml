@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: OtherInsurance
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: OtherInsurance
+notes:
+  curation: ''
+value_list: NoYesMissing

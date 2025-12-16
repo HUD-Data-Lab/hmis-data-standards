@@ -1,0 +1,34 @@
+status: draft
+hmis_id: null
+name: EnrollmentID
+description: ''
+type: string
+sources:
+- openapi_schema: enrollmentPrimaryKey
+  openapi_field: EnrollmentID
+- openapi_schema: exitBase
+  openapi_field: EnrollmentID
+- openapi_schema: incomeBenefitsBase
+  openapi_field: EnrollmentID
+- openapi_schema: healthAndDVBase
+  openapi_field: EnrollmentID
+- openapi_schema: employmentEducationBase
+  openapi_field: EnrollmentID
+- openapi_schema: disabilitiesBase
+  openapi_field: EnrollmentID
+- openapi_schema: servicesBase
+  openapi_field: EnrollmentID
+- openapi_schema: currentLivingSituationBase
+  openapi_field: EnrollmentID
+- openapi_schema: assessmentBase
+  openapi_field: EnrollmentID
+- openapi_schema: assessmentQuestionsBase
+  openapi_field: EnrollmentID
+- openapi_schema: assessmentResultsBase
+  openapi_field: EnrollmentID
+- openapi_schema: eventBase
+  openapi_field: EnrollmentID
+- openapi_schema: youthEducationStatusBase
+  openapi_field: EnrollmentID
+notes:
+  curation: ''

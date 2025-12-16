@@ -1,0 +1,54 @@
+status: draft
+id: RHYServices
+description: Services provided under the RHY program.
+type: integer
+values:
+- value: 2
+  label: COMMUNITY_SERVICE_SERVICE_LEARNING
+  description: Community service/service learning (CSL)
+- value: 5
+  label: EDUCATION
+  description: Education
+- value: 6
+  label: EMPLOYMENT_AND_OR_TRAINING_SERVICES
+  description: Employment and/or training services
+- value: 7
+  label: CRIMINAL_JUSTICE_LEGAL_SERVICES
+  description: Criminal justice /legal services
+- value: 8
+  label: LIFE_SKILLS_TRAINING
+  description: Life skills training
+- value: 10
+  label: PARENTING_EDUCATION_FOR_YOUTH_WITH_CHILDREN
+  description: Parenting education for youth with children
+- value: 12
+  label: POST_NATAL_CARE_FOR_CLIENT
+  description: Post-natal care for client (person who gave birth)
+- value: 13
+  label: PRE_NATAL_CARE
+  description: Pre-natal care
+- value: 14
+  label: HEALTH_MEDICAL_CARE
+  description: Health/medical care
+- value: 17
+  label: SUBSTANCE_USE_DISORDER_TREATMENT
+  description: Substance use disorder treatment
+- value: 18
+  label: SUBSTANCE_USE_DISORDER_ED_PREVENTION_SERVICES
+  description: Substance use disorder Ed/Prevention Services
+- value: 26
+  label: HOME_BASED_SERVICES
+  description: Home-based Services
+- value: 27
+  label: POST_NATAL_NEWBORN_CARE
+  description: Post-natal newborn care (wellness exams; immunizations)
+- value: 28
+  label: STD_TESTING
+  description: STD Testing
+- value: 29
+  label: STREET_BASED_SERVICES
+  description: Street-based Services
+source:
+  openapi_schema: RHYServices_list
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: MostRecentEdStatus
+description: Most recent education status (if CurrentSchoolAttend = 0)
+type: integer
+sources:
+- openapi_schema: youthEducationStatusBase
+  openapi_field: MostRecentEdStatus
+notes:
+  curation: ''
+value_list: MostRecentEdStatus

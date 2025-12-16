@@ -1,0 +1,27 @@
+status: draft
+id: ExpelledReason
+description: Reasons for expulsion from the project.
+type: integer
+values:
+- value: 1
+  label: CRIMINAL_ACTIVITY
+  description: Criminal activity/destruction of property/violence
+- value: 2
+  label: NON_COMPLIANCE
+  description: Non-compliance with project rules
+- value: 3
+  label: NON_PAYMENT
+  description: Non-payment of rent/occupancy charge
+- value: 4
+  label: MAXIMUM_TIME_REACHED
+  description: Reached maximum time allowed by project
+- value: 5
+  label: PROJECT_TERMINATED
+  description: Project terminated
+- value: 6
+  label: UNKNOWN_DISAPPEARED
+  description: Unknown/disappeared
+source:
+  openapi_schema: ExpelledReason_list
+notes:
+  curation: ''

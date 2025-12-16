@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ReferralResult
+description: ''
+type: integer
+sources:
+- openapi_schema: eventBase
+  openapi_field: ReferralResult
+notes:
+  curation: ''
+value_list: ReferralResult

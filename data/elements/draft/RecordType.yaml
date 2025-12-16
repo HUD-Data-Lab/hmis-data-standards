@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: RecordType
+description: ''
+type: integer
+sources:
+- openapi_schema: servicesBase
+  openapi_field: RecordType
+notes:
+  curation: ''
+value_list: RecordType

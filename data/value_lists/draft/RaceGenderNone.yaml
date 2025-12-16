@@ -1,0 +1,18 @@
+status: draft
+id: RaceGenderNone
+description: Indicates if race or gender data is not specified.
+type: integer
+values:
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client does not know their race or gender.
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer race or gender questions.
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Race or gender data was not collected.
+source:
+  openapi_schema: RaceGenderNone_list
+notes:
+  curation: ''

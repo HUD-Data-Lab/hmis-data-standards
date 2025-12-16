@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: NotEmployedReason
+description: ''
+type: integer
+sources:
+- openapi_schema: employmentEducationBase
+  openapi_field: NotEmployedReason
+notes:
+  curation: ''
+value_list: NotEmployedReason

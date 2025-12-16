@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: DifferentIdentity
+description: ''
+type: integer
+sources:
+- openapi_schema: clientBase
+  openapi_field: DifferentIdentity
+notes:
+  curation: ''
+value_list: NoYes

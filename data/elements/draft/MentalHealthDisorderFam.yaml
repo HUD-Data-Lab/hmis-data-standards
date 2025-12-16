@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: MentalHealthDisorderFam
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: MentalHealthDisorderFam
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

@@ -1,0 +1,27 @@
+status: draft
+id: SubsidyInformation
+description: Type of subsidy or financial assistance the client has at project exit.
+type: integer
+values:
+- value: 1
+  label: WITHOUT_A_SUBSIDY
+  description: Without a subsidy
+- value: 2
+  label: WITH_SUBSIDY_AT_PROJECT_ENTRY
+  description: With the subsidy they had at project entry
+- value: 3
+  label: WITH_ONGOING_SUBSIDY_ACQUIRED
+  description: With an on-going subsidy acquired since project entry
+- value: 4
+  label: WITH_OTHER_FINANCIAL_ASSISTANCE
+  description: But only with other financial assistance
+- value: 11
+  label: WITH_ONGOING_SUBSIDY
+  description: With on-going subsidy
+- value: 12
+  label: WITHOUT_ONGOING_SUBSIDY
+  description: Without an on-going subsidy
+source:
+  openapi_schema: SubsidyInformation_list
+notes:
+  curation: ''

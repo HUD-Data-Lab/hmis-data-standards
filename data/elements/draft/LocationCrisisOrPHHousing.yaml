@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: LocationCrisisOrPHHousing
+description: ''
+type: string
+sources:
+- openapi_schema: eventBase
+  openapi_field: LocationCrisisOrPHHousing
+notes:
+  curation: ''

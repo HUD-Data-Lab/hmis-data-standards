@@ -1,0 +1,24 @@
+status: draft
+id: ReasonNoServices
+description: Reasons for not providing services.
+type: integer
+values:
+- value: 1
+  label: OUT_OF_AGE_RANGE
+  description: Out of age range
+- value: 2
+  label: WARD_OF_THE_State
+  description: Ward of the State
+- value: 3
+  label: WARD_OF_THE_CRIMINAL_JUSTICE_SYSTEM
+  description: Ward of the criminal justice system
+- value: 4
+  label: OTHER
+  description: Other
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: ReasonNoServices_list
+notes:
+  curation: ''

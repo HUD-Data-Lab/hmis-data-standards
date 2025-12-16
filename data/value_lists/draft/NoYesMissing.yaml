@@ -1,0 +1,18 @@
+status: draft
+id: NoYesMissing
+description: A basic boolean with an additional option for missing data.
+type: integer
+values:
+- value: 0
+  label: 'NO'
+  description: The response is no.
+- value: 1
+  label: 'YES'
+  description: The response is yes.
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data for this field was not collected.
+source:
+  openapi_schema: NoYesMissing_list
+notes:
+  curation: ''

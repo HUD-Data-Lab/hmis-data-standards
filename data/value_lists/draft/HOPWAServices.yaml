@@ -1,0 +1,51 @@
+status: draft
+id: HOPWAServices
+description: Types of services provided under the HOPWA program.
+type: integer
+values:
+- value: 1
+  label: ADULT_DAY_CARE_AND_PERSONAL_ASSISTANCE
+  description: Adult day care and personal assistance
+- value: 2
+  label: CASE_MANAGEMENT
+  description: Case management
+- value: 3
+  label: CHILD_CARE
+  description: Child care
+- value: 4
+  label: CRIMINAL_JUSTICE_LEGAL_SERVICES
+  description: Criminal justice/legal services
+- value: 5
+  label: EDUCATION
+  description: Education
+- value: 6
+  label: EMPLOYMENT_AND_TRAINING_SERVICES
+  description: Employment and training services
+- value: 7
+  label: FOOD_MEALS_NUTRITIONAL_SERVICES
+  description: Food/meals/nutritional services
+- value: 8
+  label: HEALTH_MEDICAL_CARE
+  description: Health/medical care
+- value: 9
+  label: LIFE_SKILLS_TRAINING
+  description: Life skills training
+- value: 10
+  label: MENTAL_HEALTH_CARE_COUNSELING
+  description: Mental health care/counseling
+- value: 11
+  label: OUTREACH_AND_ENGAGEMENT
+  description: Outreach and/or engagement
+- value: 12
+  label: SUBSTANCE_USE_SERVICES_TREATMENT
+  description: Substance use services/treatment
+- value: 13
+  label: TRANSPORTATION
+  description: Transportation
+- value: 14
+  label: OTHER_HOPWA_FUNDED_SERVICE
+  description: Other HOPWA funded service
+source:
+  openapi_schema: HOPWAServices_list
+notes:
+  curation: ''

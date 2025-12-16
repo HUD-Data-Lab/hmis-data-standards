@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: UserPhone
+description: ''
+type: string
+sources:
+- openapi_schema: userBase
+  openapi_field: UserPhone
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: IraqOIF
+description: ''
+type: integer
+sources:
+- openapi_schema: clientBase
+  openapi_field: IraqOIF
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: CEParticipationID
+description: ''
+type: string
+sources:
+- openapi_schema: ceParticipationPrimaryKey
+  openapi_field: CEParticipationID
+notes:
+  curation: ''

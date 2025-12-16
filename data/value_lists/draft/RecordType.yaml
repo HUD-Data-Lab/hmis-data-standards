@@ -1,0 +1,41 @@
+status: draft
+id: RecordType
+description: Defines types of records and services in the system.
+type: integer
+values:
+- value: 141
+  label: PATH_SERVICE
+  description: Services under PATH.
+- value: 142
+  label: RHY_SERVICE_CONNECTIONS
+  description: Services provided to Homeless Youth.
+- value: 143
+  label: HOPWA_SERVICE
+  description: Services dedicated to housing needs of people living with HIV/AIDS.
+- value: 144
+  label: SSVF_SERVICE
+  description: Supportive Services for Veteran Families.
+- value: 151
+  label: HOPWA_FINANCIAL_ASSISTANCE
+  description: Financial assistance through Services dedicated to the housing needs
+    of people living with HIV/AIDS.
+- value: 152
+  label: SSVF_FINANCIAL_ASSISTANCE
+  description: Financial assistance Supportive Services for Veteran Families.
+- value: 161
+  label: PATH_REFERRAL
+  description: Referral services through Projects for Assistance in Transition from
+    Homelessness (PATH).
+- value: 200
+  label: BED_NIGHT
+  description: Record of bed nights at Night-by-Night shelter.
+- value: 210
+  label: HUD_VASH_VOUCHER_TRACKING
+  description: Voucher tracking under HUD-VASH.
+- value: 300
+  label: MOVING_ON_ASSISTANCE
+  description: Assistance provided for moving on.
+source:
+  openapi_schema: RecordType_list
+notes:
+  curation: ''

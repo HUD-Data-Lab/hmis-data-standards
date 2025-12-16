@@ -1,0 +1,27 @@
+status: draft
+id: RelationshipToHoH
+description: Defines the client's relationship to the Head of Household.
+type: integer
+values:
+- value: 1
+  label: SELF_HEAD_OF_HOUSEHOLD
+  description: Self (Head of Household)
+- value: 2
+  label: HEAD_OF_HOUSEHOLD_CHILD
+  description: Head of household's child
+- value: 3
+  label: HEAD_OF_HOUSEHOLD_SPOUSE_OR_PARTNER
+  description: Head of household's spouse or partner
+- value: 4
+  label: HEAD_OF_HOUSEHOLD_OTHER_RELATION_MEMBER
+  description: Head of household's other relation member
+- value: 5
+  label: OTHER_NON_RELATION_MEMBER
+  description: 'Other: non-relation member'
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: RelationshipToHoH_list
+notes:
+  curation: ''

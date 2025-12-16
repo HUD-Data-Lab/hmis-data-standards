@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: Funder
+description: Funding source identifier
+type: integer
+sources:
+- openapi_schema: funderBase
+  openapi_field: Funder
+notes:
+  curation: ''
+value_list: FundingSource

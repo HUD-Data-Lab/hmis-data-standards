@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: DomesticViolenceSurvivor
+description: ''
+type: integer
+sources:
+- openapi_schema: healthAndDVBase
+  openapi_field: DomesticViolenceSurvivor
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

@@ -1,0 +1,13 @@
+status: draft
+hmis_id: null
+name: HousingAssessment
+description: ''
+type: integer
+sources:
+- openapi_schema: ceParticipationBase
+  openapi_field: HousingAssessment
+- openapi_schema: exitBase
+  openapi_field: HousingAssessment
+notes:
+  curation: ''
+value_list: NoYes

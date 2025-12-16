@@ -1,0 +1,12 @@
+status: draft
+hmis_id: null
+name: VictimServiceProvider
+description: Indicates whether the organization is a victim service provider (1=yes,
+  0=no)
+type: integer
+sources:
+- openapi_schema: organizationBase
+  openapi_field: VictimServiceProvider
+notes:
+  curation: ''
+value_list: NoYes

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: Earned
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: Earned
+notes:
+  curation: ''
+value_list: NoYesMissing

@@ -1,0 +1,12 @@
+status: draft
+hmis_id: null
+name: OrganizationID
+description: ''
+type: string
+sources:
+- openapi_schema: organizationPrimaryKey
+  openapi_field: OrganizationID
+- openapi_schema: projectBase
+  openapi_field: OrganizationID
+notes:
+  curation: ''

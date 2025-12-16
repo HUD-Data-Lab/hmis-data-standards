@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: DateCreated
+description: ''
+type: string
+sources:
+- openapi_schema: hmisMetadata
+  openapi_field: DateCreated
+notes:
+  curation: ''

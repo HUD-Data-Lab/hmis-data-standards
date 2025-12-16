@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: DisabilityType
+description: ''
+type: integer
+sources:
+- openapi_schema: disabilitiesBase
+  openapi_field: DisabilityType
+notes:
+  curation: ''
+value_list: DisabilityType

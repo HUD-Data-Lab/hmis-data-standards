@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: SessionsInPlan
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: SessionsInPlan
+notes:
+  curation: ''

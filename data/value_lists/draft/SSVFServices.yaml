@@ -1,0 +1,36 @@
+status: draft
+id: SSVFServices
+description: SSVF services provided.
+type: integer
+values:
+- value: 1
+  label: OUTREACH_SERVICES
+  description: Outreach services
+- value: 2
+  label: CASE_MANAGEMENT_SERVICES
+  description: Case management services
+- value: 3
+  label: ASSISTANCE_OBTAINING_VA_BENEFITS
+  description: Assistance obtaining VA benefits
+- value: 4
+  label: ASSISTANCE_OBTAINING_COORDINATING_OTHER_PUBLIC_BENEFITS
+  description: Assistance obtaining/coordinating other public benefits
+- value: 5
+  label: DIRECT_PROVISION_OF_OTHER_PUBLIC_BENEFITS
+  description: Direct provision of other public benefits
+- value: 6
+  label: OTHER_NON_TFA_SUPPORTIVE_SERVICE
+  description: Other (non-TFA) supportive service approved by VA
+- value: 7
+  label: SHALLOW_SUBSIDY
+  description: Shallow Subsidy
+- value: 8
+  label: RETURNING_HOME
+  description: Returning Home
+- value: 9
+  label: RAPID_RESOLUTION
+  description: Rapid Resolution
+source:
+  openapi_schema: SSVFServices_list
+notes:
+  curation: ''

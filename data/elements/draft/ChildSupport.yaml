@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ChildSupport
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: ChildSupport
+notes:
+  curation: ''
+value_list: NoYesMissing

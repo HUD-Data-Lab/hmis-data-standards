@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: CurrentLivingSituation
+description: ''
+type: integer
+sources:
+- openapi_schema: currentLivingSituationBase
+  openapi_field: CurrentLivingSituation
+notes:
+  curation: ''
+value_list: LivingSituation

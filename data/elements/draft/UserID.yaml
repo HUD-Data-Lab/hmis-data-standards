@@ -1,0 +1,12 @@
+status: draft
+hmis_id: null
+name: UserID
+description: ''
+type: string
+sources:
+- openapi_schema: userPrimaryKey
+  openapi_field: UserID
+- openapi_schema: hmisMetadata
+  openapi_field: UserID
+notes:
+  curation: ''

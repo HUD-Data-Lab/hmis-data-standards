@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ReferralOutcome
+description: Referral outcome (if RecordType = 161)
+type: integer
+sources:
+- openapi_schema: servicesBase
+  openapi_field: ReferralOutcome
+notes:
+  curation: ''
+value_list: PATHReferralOutcome

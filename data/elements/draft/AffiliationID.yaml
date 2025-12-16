@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: AffiliationID
+description: ''
+type: string
+sources:
+- openapi_schema: affiliationPrimaryKey
+  openapi_field: AffiliationID
+notes:
+  curation: ''

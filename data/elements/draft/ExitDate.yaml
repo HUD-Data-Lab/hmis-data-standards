@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: ExitDate
+description: ''
+type: string
+sources:
+- openapi_schema: exitBase
+  openapi_field: ExitDate
+notes:
+  curation: ''

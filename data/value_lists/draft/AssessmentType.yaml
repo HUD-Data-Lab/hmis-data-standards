@@ -1,0 +1,18 @@
+status: draft
+id: AssessmentType
+description: Type of assessment conducted.
+type: integer
+values:
+- value: 1
+  label: PHONE
+  description: Phone
+- value: 2
+  label: VIRTUAL
+  description: Virtual
+- value: 3
+  label: IN_PERSON
+  description: In Person
+source:
+  openapi_schema: AssessmentType
+notes:
+  curation: ''

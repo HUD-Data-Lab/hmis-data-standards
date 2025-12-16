@@ -1,0 +1,36 @@
+status: draft
+id: MilitaryBranch
+description: Branch of military service.
+type: integer
+values:
+- value: 1
+  label: ARMY
+  description: Army
+- value: 2
+  label: AIR_FORCE
+  description: Air Force
+- value: 3
+  label: NAVY
+  description: Navy
+- value: 4
+  label: MARINES
+  description: Marines
+- value: 6
+  label: COAST_GUARD
+  description: Coast Guard
+- value: 7
+  label: SPACE_FORCE
+  description: Space Force
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: MilitaryBranch_list
+notes:
+  curation: ''

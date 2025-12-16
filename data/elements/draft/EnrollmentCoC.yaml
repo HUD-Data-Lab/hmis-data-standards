@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: EnrollmentCoC
+description: ''
+type: string
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: EnrollmentCoC
+notes:
+  curation: ''

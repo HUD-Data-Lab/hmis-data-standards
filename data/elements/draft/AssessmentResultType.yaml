@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: AssessmentResultType
+description: ''
+type: string
+sources:
+- openapi_schema: assessmentResultsBase
+  openapi_field: AssessmentResultType
+notes:
+  curation: ''

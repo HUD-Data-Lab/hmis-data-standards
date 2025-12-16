@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: ProjectCoCID
+description: ''
+type: string
+sources:
+- openapi_schema: projectCoCPrimaryKey
+  openapi_field: ProjectCoCID
+notes:
+  curation: ''

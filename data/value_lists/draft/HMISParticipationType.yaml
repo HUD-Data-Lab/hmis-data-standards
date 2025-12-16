@@ -1,0 +1,21 @@
+status: draft
+id: HMISParticipationType
+description: Level of participation in the CoC's HMIS or VSP's comparable database
+  by the project.
+type: integer
+values:
+- value: 0
+  label: NOT_PARTICIPATING
+  description: No persons in this project have data collected in the CoC's HMIS or
+    by VSP in a comparable database.
+- value: 1
+  label: HMIS_PARTICIPATING
+  description: All persons in this project have data collected in the CoC's HMIS.
+- value: 2
+  label: COMPARABLE_DATABASE_PARTICIPATING
+  description: All persons in this project have data collected in a VSP comparable
+    database
+source:
+  openapi_schema: HMISParticipationType
+notes:
+  curation: ''

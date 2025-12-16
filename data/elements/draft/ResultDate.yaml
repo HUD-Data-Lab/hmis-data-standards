@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: ResultDate
+description: ''
+type: string
+sources:
+- openapi_schema: eventBase
+  openapi_field: ResultDate
+notes:
+  curation: ''

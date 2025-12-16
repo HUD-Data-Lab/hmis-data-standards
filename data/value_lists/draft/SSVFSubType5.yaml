@@ -1,0 +1,43 @@
+status: draft
+id: SSVFSubType5
+description: Subtypes of services provided under SSVF for direct provision of public
+  benefits.
+type: integer
+values:
+- value: 1
+  label: PERSONAL_FINANCIAL_PLANNING_SERVICES
+  description: Personal financial planning services
+- value: 2
+  label: TRANSPORTATION_SERVICES
+  description: Transportation services
+- value: 3
+  label: INCOME_SUPPORT_SERVICES
+  description: Income support services
+- value: 4
+  label: FIDUCIARY_AND_REPRESENTATIVE_PAYEE_SERVICES
+  description: Fiduciary and representative payee services
+- value: 5
+  label: LEGAL_SERVICES_CHILD_SUPPORT
+  description: Legal services - child support
+- value: 6
+  label: LEGAL_SERVICES_EVICTION_PREVENTION
+  description: Legal services - eviction prevention
+- value: 7
+  label: LEGAL_SERVICES_OUTSTANDING_FINES_PENALTIES
+  description: Legal services - outstanding fines and penalties
+- value: 8
+  label: LEGAL_SERVICES_RESTORE_ACQUIRE_DRIVERS_LICENSE
+  description: Legal services - restore / acquire driver's license
+- value: 9
+  label: LEGAL_SERVICES_OTHER
+  description: Legal services-other
+- value: 10
+  label: CHILD_CARE
+  description: Child care
+- value: 11
+  label: HOUSING_COUNSELING
+  description: Housing counseling
+source:
+  openapi_schema: SSVFSubType5_list
+notes:
+  curation: ''

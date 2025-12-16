@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: VHAServices
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: VHAServices
+notes:
+  curation: ''
+value_list: NoYesMissing

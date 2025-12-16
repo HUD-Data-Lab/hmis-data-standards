@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: Availability
+description: ''
+type: integer
+sources:
+- openapi_schema: inventoryBase
+  openapi_field: Availability
+notes:
+  curation: ''
+value_list: Availability

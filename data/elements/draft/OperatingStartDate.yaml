@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: OperatingStartDate
+description: ''
+type: string
+sources:
+- openapi_schema: projectBase
+  openapi_field: OperatingStartDate
+notes:
+  curation: ''

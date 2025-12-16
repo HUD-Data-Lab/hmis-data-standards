@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: NoIndianHealthInsuranceReason
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: NoIndianHealthInsuranceReason
+notes:
+  curation: ''
+value_list: ReasonNotInsured

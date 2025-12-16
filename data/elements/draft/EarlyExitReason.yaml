@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: EarlyExitReason
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: EarlyExitReason
+notes:
+  curation: ''
+value_list: ExpelledReason

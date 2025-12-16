@@ -1,0 +1,18 @@
+status: draft
+id: AftercareProvided
+description: Specifies if aftercare was provided following service completion.
+type: integer
+values:
+- value: 0
+  label: 'NO'
+  description: 'No'
+- value: 1
+  label: 'YES'
+  description: 'Yes'
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+source:
+  openapi_schema: AftercareProvided_list
+notes:
+  curation: ''

@@ -1,0 +1,36 @@
+status: draft
+hmis_id: null
+name: PersonalID
+description: Unique identifier for the client
+type: string
+sources:
+- openapi_schema: clientPrimaryKey
+  openapi_field: PersonalID
+- openapi_schema: enrollmentBase
+  openapi_field: PersonalID
+- openapi_schema: exitBase
+  openapi_field: PersonalID
+- openapi_schema: incomeBenefitsBase
+  openapi_field: PersonalID
+- openapi_schema: healthAndDVBase
+  openapi_field: PersonalID
+- openapi_schema: employmentEducationBase
+  openapi_field: PersonalID
+- openapi_schema: disabilitiesBase
+  openapi_field: PersonalID
+- openapi_schema: servicesBase
+  openapi_field: PersonalID
+- openapi_schema: currentLivingSituationBase
+  openapi_field: PersonalID
+- openapi_schema: assessmentBase
+  openapi_field: PersonalID
+- openapi_schema: assessmentQuestionsBase
+  openapi_field: PersonalID
+- openapi_schema: assessmentResultsBase
+  openapi_field: PersonalID
+- openapi_schema: eventBase
+  openapi_field: PersonalID
+- openapi_schema: youthEducationStatusBase
+  openapi_field: PersonalID
+notes:
+  curation: ''

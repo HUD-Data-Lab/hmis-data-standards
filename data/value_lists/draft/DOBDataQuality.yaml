@@ -1,0 +1,24 @@
+status: draft
+id: DOBDataQuality
+description: Indicates the data quality of the reported date of birth.
+type: integer
+values:
+- value: 1
+  label: FULL_DOB_REPORTED
+  description: Full date of birth reported
+- value: 2
+  label: APPROXIMATE_OR_PARTIAL_DOB_REPORTED
+  description: Approximate or partial date of birth reported
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: DOBDataQuality_list
+notes:
+  curation: ''

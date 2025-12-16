@@ -1,0 +1,21 @@
+status: draft
+id: EmploymentType
+description: Type of employment the client is engaged in.
+type: integer
+values:
+- value: 1
+  label: FULL_TIME
+  description: Full-time
+- value: 2
+  label: PART_TIME
+  description: Part-time
+- value: 3
+  label: SEASONAL_SPORADIC
+  description: Seasonal / sporadic (including day labor)
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: EmploymentType_list
+notes:
+  curation: ''

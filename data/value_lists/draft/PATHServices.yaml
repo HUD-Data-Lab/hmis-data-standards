@@ -1,0 +1,48 @@
+status: draft
+id: PATHServices
+description: Services provided under the PATH program.
+type: integer
+values:
+- value: 1
+  label: RE_ENGAGEMENT
+  description: Re-engagement
+- value: 2
+  label: SCREENING
+  description: Screening
+- value: 3
+  label: HABILITATION_REHABILITATION
+  description: Habilitation/rehabilitation
+- value: 4
+  label: COMMUNITY_MENTAL_HEALTH
+  description: Community mental health
+- value: 5
+  label: SUBSTANCE_USE_TREATMENT
+  description: Substance use treatment
+- value: 6
+  label: CASE_MANAGEMENT
+  description: Case management
+- value: 7
+  label: RESIDENTIAL_SUPPORTIVE_SERVICES
+  description: Residential supportive services
+- value: 8
+  label: HOUSING_MINOR_RENOVATION
+  description: Housing minor renovation
+- value: 9
+  label: HOUSING_MOVING_ASSISTANCE
+  description: Housing moving assistance
+- value: 10
+  label: HOUSING_ELIGIBILITY_DETERMINATION
+  description: Housing eligibility determination
+- value: 11
+  label: SECURITY_DEPOSITS
+  description: Security deposits
+- value: 12
+  label: ONE_TIME_RENT_FOR_EVICTION_PREVENTION
+  description: One-time rent for eviction prevention
+- value: 14
+  label: CLINICAL_ASSESSMENT
+  description: Clinical assessment
+source:
+  openapi_schema: PATHServices_list
+notes:
+  curation: ''

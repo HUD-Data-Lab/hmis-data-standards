@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: EvictionHistory
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: EvictionHistory
+notes:
+  curation: ''
+value_list: EvictionHistory

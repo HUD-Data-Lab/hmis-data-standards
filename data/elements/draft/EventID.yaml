@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: EventID
+description: ''
+type: string
+sources:
+- openapi_schema: eventPrimaryKey
+  openapi_field: EventID
+notes:
+  curation: ''

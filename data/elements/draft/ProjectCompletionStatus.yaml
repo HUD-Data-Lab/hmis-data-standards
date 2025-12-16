@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ProjectCompletionStatus
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: ProjectCompletionStatus
+notes:
+  curation: ''
+value_list: ProjectCompletionStatus

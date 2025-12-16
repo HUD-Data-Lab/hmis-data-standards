@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: AftercareDate
+description: ''
+type: string
+sources:
+- openapi_schema: exitBase
+  openapi_field: AftercareDate
+notes:
+  curation: ''

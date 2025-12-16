@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: FunderID
+description: ''
+type: integer
+sources:
+- openapi_schema: funderPrimaryKey
+  openapi_field: FunderID
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: PosAdultConnections
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: PosAdultConnections
+notes:
+  curation: ''
+value_list: WorkerResponse

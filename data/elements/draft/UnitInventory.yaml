@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: UnitInventory
+description: ''
+type: integer
+sources:
+- openapi_schema: inventoryBase
+  openapi_field: UnitInventory
+notes:
+  curation: ''

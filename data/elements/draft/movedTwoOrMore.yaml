@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: movedTwoOrMore
+description: Moved two or more times (if LeaveSituation14Days = 1)
+type: integer
+sources:
+- openapi_schema: currentLivingSituationBase
+  openapi_field: movedTwoOrMore
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

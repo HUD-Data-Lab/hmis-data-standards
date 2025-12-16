@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: HouseholdType
+description: ''
+type: integer
+sources:
+- openapi_schema: inventoryBase
+  openapi_field: HouseholdType
+notes:
+  curation: ''
+value_list: HouseholdType

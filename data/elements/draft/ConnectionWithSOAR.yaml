@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ConnectionWithSOAR
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: ConnectionWithSOAR
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

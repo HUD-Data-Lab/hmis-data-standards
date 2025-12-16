@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: TCellCount
+description: T-cell count (if TCellCountAvailable = 1)
+type: integer
+sources:
+- openapi_schema: disabilitiesBase
+  openapi_field: TCellCount
+notes:
+  curation: ''

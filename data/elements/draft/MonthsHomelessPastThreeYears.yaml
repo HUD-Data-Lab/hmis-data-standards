@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: MonthsHomelessPastThreeYears
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: MonthsHomelessPastThreeYears
+notes:
+  curation: ''
+value_list: MonthsHomelessPastThreeYears

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: AntiRetroviral
+description: Anti-Retroviral (if DisabilityType = 8 AND DisabilityResponse = 1)
+type: integer
+sources:
+- openapi_schema: disabilitiesBase
+  openapi_field: AntiRetroviral
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

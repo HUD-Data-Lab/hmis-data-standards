@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: CurrentLivingSitID
+description: Unique identifier
+type: string
+sources:
+- openapi_schema: currentLivingSituationPrimaryKey
+  openapi_field: CurrentLivingSitID
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: NoEmployerProvidedReason
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: NoEmployerProvidedReason
+notes:
+  curation: ''
+value_list: ReasonNotInsured

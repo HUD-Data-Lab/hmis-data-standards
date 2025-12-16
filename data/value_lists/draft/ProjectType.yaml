@@ -1,0 +1,51 @@
+status: draft
+id: ProjectType
+description: Defines the type of housing or service project.
+type: integer
+values:
+- value: 0
+  label: EMERGENCY_SHELTER_ENTRY_EXIT
+  description: Emergency Shelter - Entry Exit
+- value: 1
+  label: EMERGENCY_SHELTER_NIGHT_BY_NIGHT
+  description: Emergency Shelter - Night-by-Night
+- value: 2
+  label: TRANSITIONAL_HOUSING
+  description: Transitional Housing
+- value: 3
+  label: PERMANENT_SUPPORTIVE_HOUSING
+  description: Permanent Supportive Housing
+- value: 4
+  label: STREET_OUTREACH
+  description: Street Outreach
+- value: 6
+  label: SERVICES_ONLY
+  description: Services Only
+- value: 7
+  label: OTHER
+  description: Other
+- value: 8
+  label: SAFE_HAVEN
+  description: Safe Haven
+- value: 9
+  label: HOUSING_ONLY
+  description: Housing Only
+- value: 10
+  label: HOUSING_WITH_SERVICES
+  description: Housing with Services (no disability required for entry)
+- value: 11
+  label: DAY_SHELTER
+  description: Day Shelter
+- value: 12
+  label: HOMELESSNESS_PREVENTION
+  description: Homelessness Prevention
+- value: 13
+  label: RAPID_RE_HOUSING
+  description: Rapid Re-Housing
+- value: 14
+  label: COORDINATED_ENTRY
+  description: Coordinated Entry
+source:
+  openapi_schema: ProjectType_list
+notes:
+  curation: ''

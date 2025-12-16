@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: StartDate
+description: Start date
+type: string
+sources:
+- openapi_schema: funderBase
+  openapi_field: StartDate
+notes:
+  curation: ''

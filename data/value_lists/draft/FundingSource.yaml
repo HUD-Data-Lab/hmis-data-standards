@@ -1,0 +1,156 @@
+status: draft
+id: FundingSource
+description: Specifies the source of funding for housing and services projects.
+type: integer
+values:
+- value: 1
+  label: HUD_COC_HOMELESSNESS_PREVENTION
+  description: 'HUD: CoC - Homelessness Prevention (High Performing Communities Only)'
+- value: 2
+  label: HUD_COC_PERMANENT_SUPPORTIVE_HOUSING
+  description: 'HUD: CoC - Permanent Supportive Housing'
+- value: 3
+  label: HUD_COC_RAPID_RE_HOUSING
+  description: 'HUD: CoC - Rapid Re-Housing'
+- value: 4
+  label: HUD_COC_SUPPORTIVE_SERVICES_ONLY
+  description: 'HUD: CoC - Supportive Services Only'
+- value: 5
+  label: HUD_COC_TRANSITIONAL_HOUSING
+  description: 'HUD: CoC - Transitional Housing'
+- value: 6
+  label: HUD_COC_SAFE_HAVEN
+  description: 'HUD: CoC - Safe Haven'
+- value: 7
+  label: HUD_COC_SINGLE_ROOM_OCCUPANCY
+  description: 'HUD: CoC - Single Room Occupancy (SRO)'
+- value: 8
+  label: HUD_ESG_EMERGENCY_SHELTER
+  description: 'HUD: ESG - Emergency Shelter (operating and/or essential services)'
+- value: 9
+  label: HUD_ESG_HOMELESSNESS_PREVENTION
+  description: 'HUD: ESG - Homelessness Prevention'
+- value: 10
+  label: HUD_ESG_RAPID_REHOUSING
+  description: 'HUD: ESG - Rapid Rehousing'
+- value: 11
+  label: HUD_ESG_STREET_OUTREACH
+  description: 'HUD: ESG - Street Outreach'
+- value: 13
+  label: HUD_HOPWA_HOTEL_MOTEL_VOUCHERS
+  description: 'HUD: HOPWA - Hotel/Motel Vouchers'
+- value: 14
+  label: HUD_HOPWA_HOUSING_INFORMATION
+  description: 'HUD: HOPWA - Housing Information'
+- value: 15
+  label: HUD_HOPWA_PERMANENT_HOUSING
+  description: 'HUD: HOPWA - Permanent Housing (facility based or TBRA)'
+- value: 16
+  label: HUD_HOPWA_PERMANENT_HOUSING_PLACEMENT
+  description: 'HUD: HOPWA - Permanent Housing Placement'
+- value: 17
+  label: HUD_HOPWA_SHORT_TERM_RENT_MORTGAGE_UTILITY
+  description: 'HUD: HOPWA - Short-Term Rent, Mortgage, Utility assistance'
+- value: 18
+  label: HUD_HOPWA_SHORT_TERM_SUPPORTIVE_FACILITY
+  description: 'HUD: HOPWA - Short-Term Supportive Facility'
+- value: 19
+  label: HUD_HOPWA_TRANSITIONAL_HOUSING
+  description: 'HUD: HOPWA - Transitional Housing (facility based or TBRA)'
+- value: 20
+  label: HUD_HUD_VASH
+  description: 'HUD: HUD/VASH'
+- value: 21
+  label: HHS_PATH_STREET_OUTREACH
+  description: 'HHS: PATH - Street Outreach & Supportive Services Only'
+- value: 22
+  label: HHS_RHY_BASIC_CENTER_PROGRAM
+  description: 'HHS: RHY - Basic Center Program (prevention and shelter)'
+- value: 23
+  label: HHS_RHY_MATERNITY_GROUP_HOME
+  description: 'HHS: RHY - Maternity Group Home for Pregnant and Parenting Youth'
+- value: 24
+  label: HHS_RHY_TRANSITIONAL_LIVING_PROGRAM
+  description: 'HHS: RHY - Transitional Living Program'
+- value: 25
+  label: HHS_RHY_STREET_OUTREACH_PROJECT
+  description: 'HHS: RHY - Street Outreach Project'
+- value: 26
+  label: HHS_RHY_DEMONSTRATION_PROJECT
+  description: 'HHS: RHY - Demonstration Project'
+- value: 27
+  label: VA_CRS_CONTRACT_RESIDENTIAL_SERVICES
+  description: 'VA: CRS Contract Residential Services'
+- value: 30
+  label: VA_COMMUNITY_CONTRACT_SAFE_HAVEN_PROGRAM
+  description: 'VA: Community Contract Safe Haven Program'
+- value: 33
+  label: VA_SUPPORTIVE_SERVICES_FOR_VETERAN_FAMILIES
+  description: 'VA: Supportive Services for Veteran Families'
+- value: 34
+  label: N_A
+  description: Not applicable
+- value: 35
+  label: HUD_PAY_FOR_SUCCESS
+  description: 'HUD: Pay for Success'
+- value: 36
+  label: HUD_PUBLIC_INDIAN_HOUSING_PROGRAMS
+  description: 'HUD: Public and Indian Housing (PIH) Programs'
+- value: 37
+  label: VA_GRANT_PER_DIEM_BRIDGE_HOUSING
+  description: 'VA: Grant Per Diem - Bridge Housing'
+- value: 38
+  label: VA_GRANT_PER_DIEM_LOW_DEMAND
+  description: 'VA: Grant Per Diem - Low Demand'
+- value: 39
+  label: VA_GRANT_PER_DIEM_HOSPITAL_TO_HOUSING
+  description: 'VA: Grant Per Diem - Hospital to Housing'
+- value: 40
+  label: VA_GRANT_PER_DIEM_CLINICAL_TREATMENT
+  description: 'VA: Grant Per Diem - Clinical Treatment'
+- value: 41
+  label: VA_GRANT_PER_DIEM_SERVICE_INTENSIVE_TRANSITIONAL_HOUSING
+  description: 'VA: Grant Per Diem - Service Intensive Transitional Housing'
+- value: 42
+  label: VA_GRANT_PER_DIEM_TRANSITION_IN_PLACE
+  description: 'VA: Grant Per Diem - Transition in Place'
+- value: 43
+  label: HUD_COC_YOUTH_HOMELESS_DEMONSTRATION_PROGRAM
+  description: 'HUD: CoC - Youth Homeless Demonstration Program (YHDP)'
+- value: 44
+  label: HUD_COC_JOINT_COMPONENT_TH_RRH
+  description: 'HUD: CoC - Joint Component TH/RRH'
+- value: 45
+  label: VA_GRANT_PER_DIEM_CASE_MANAGEMENT_HOUSING_RETENTION
+  description: 'VA: Grant Per Diem - Case Management/Housing Retention'
+- value: 46
+  label: LOCAL_OR_OTHER_FUNDING_SOURCE
+  description: Local or Other Funding Source (Please Specify)
+- value: 47
+  label: HUD_ESG_CV
+  description: 'HUD: ESG - CV'
+- value: 48
+  label: HUD_HOPWA_CV
+  description: 'HUD: HOPWA - CV'
+- value: 50
+  label: HUD_HOME
+  description: 'HUD: HOME'
+- value: 51
+  label: HUD_HOME_ARP
+  description: 'HUD: HOME (ARP)'
+- value: 52
+  label: HUD_PIH_EMERGENCY_HOUSING_VOUCHER
+  description: 'HUD: PIH (Emergency Housing Voucher)'
+- value: 53
+  label: HUD_ESG_RUSH
+  description: 'HUD: ESG - RUSH'
+- value: 54
+  label: HUD_UNSHELTERED_SPECIAL_NOFO
+  description: 'HUD: Unsheltered Special NOFO'
+- value: 55
+  label: HUD_RURAL_SPECIAL_NOFO
+  description: 'HUD: Rural Special NOFO'
+source:
+  openapi_schema: FundingSource_list
+notes:
+  curation: ''

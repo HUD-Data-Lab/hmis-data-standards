@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: AssessmentQuestionID
+description: ''
+type: string
+sources:
+- openapi_schema: assessmentQuestionsPrimaryKey
+  openapi_field: AssessmentQuestionID
+notes:
+  curation: ''

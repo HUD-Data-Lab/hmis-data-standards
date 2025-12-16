@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: MentalHealthConsultation
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: MentalHealthConsultation
+notes:
+  curation: ''

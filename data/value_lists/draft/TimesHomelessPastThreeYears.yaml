@@ -1,0 +1,30 @@
+status: draft
+id: TimesHomelessPastThreeYears
+description: Number of times the client has been homeless in the past three years.
+type: integer
+values:
+- value: 1
+  label: ONE_TIME
+  description: One time
+- value: 2
+  label: TWO_TIMES
+  description: Two times
+- value: 3
+  label: THREE_TIMES
+  description: Three times
+- value: 4
+  label: FOUR_OR_MORE_TIMES
+  description: Four or more times
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: TimesHomelessPastThreeYears_list
+notes:
+  curation: ''

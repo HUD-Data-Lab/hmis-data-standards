@@ -1,0 +1,42 @@
+status: draft
+id: PATHReferral
+description: Referrals made under the PATH program.
+type: integer
+values:
+- value: 1
+  label: COMMUNITY_MENTAL_HEALTH
+  description: Community mental health
+- value: 2
+  label: SUBSTANCE_USE_TREATMENT
+  description: Substance use treatment
+- value: 3
+  label: PRIMARY_HEALTH_DENTAL_CARE
+  description: Primary health/dental care
+- value: 4
+  label: JOB_TRAINING
+  description: Job training
+- value: 5
+  label: EDUCATIONAL_SERVICES
+  description: Educational services
+- value: 6
+  label: HOUSING_SERVICES
+  description: Housing services
+- value: 7
+  label: PERMANENT_HOUSING
+  description: Permanent housing
+- value: 8
+  label: INCOME_ASSISTANCE
+  description: Income assistance
+- value: 9
+  label: EMPLOYMENT_ASSISTANCE
+  description: Employment assistance
+- value: 10
+  label: MEDICAL_INSURANCE
+  description: Medical insurance
+- value: 11
+  label: TEMPORARY_HOUSING
+  description: Temporary housing
+source:
+  openapi_schema: PATHReferral_list
+notes:
+  curation: ''

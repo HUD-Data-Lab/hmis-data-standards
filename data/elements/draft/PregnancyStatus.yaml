@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: PregnancyStatus
+description: ''
+type: integer
+sources:
+- openapi_schema: healthAndDVBase
+  openapi_field: PregnancyStatus
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

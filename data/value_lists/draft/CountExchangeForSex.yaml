@@ -1,0 +1,30 @@
+status: draft
+id: CountExchangeForSex
+description: How may times ever received anything for sex.
+type: integer
+values:
+- value: 1
+  label: 1_TO_3
+  description: 1-3 times
+- value: 2
+  label: 4_TO_7
+  description: 4-7 times
+- value: 3
+  label: 8_TO_11
+  description: 8-11 times
+- value: 4
+  label: 12_OR_MORE
+  description: 12 or more times
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: CountExchangeForSex_list
+notes:
+  curation: ''

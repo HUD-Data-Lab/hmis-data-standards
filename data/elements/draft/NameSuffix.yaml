@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: NameSuffix
+description: Suffix of the client's name
+type: string
+sources:
+- openapi_schema: clientBase
+  openapi_field: NameSuffix
+notes:
+  curation: ''

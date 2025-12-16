@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ReceivesReferrals
+description: ''
+type: integer
+sources:
+- openapi_schema: ceParticipationBase
+  openapi_field: ReceivesReferrals
+notes:
+  curation: ''
+value_list: NoYes

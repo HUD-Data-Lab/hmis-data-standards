@@ -1,0 +1,18 @@
+status: draft
+id: HousingType
+description: Specifies the type of housing configuration.
+type: integer
+values:
+- value: 1
+  label: SITE_BASED_SINGLE_SITE
+  description: Site-based - single site
+- value: 2
+  label: SITE_BASED_CLUSTERED_MULTIPLE_SITES
+  description: Site-based - clustered / multiple sites
+- value: 3
+  label: TENANT_BASED_SCATTERED_SITE
+  description: Tenant-based - scattered site
+source:
+  openapi_schema: HousingType
+notes:
+  curation: ''

@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: DateProvided
+description: ''
+type: string
+sources:
+- openapi_schema: servicesBase
+  openapi_field: DateProvided
+notes:
+  curation: ''

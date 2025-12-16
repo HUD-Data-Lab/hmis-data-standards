@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: LeaseOwn60Day
+description: Lease own in 60 days (if LeaveSituation14Days = 1)
+type: integer
+sources:
+- openapi_schema: currentLivingSituationBase
+  openapi_field: LeaseOwn60Day
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

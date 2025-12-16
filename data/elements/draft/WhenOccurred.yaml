@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: WhenOccurred
+description: ''
+type: integer
+sources:
+- openapi_schema: healthAndDVBase
+  openapi_field: WhenOccurred
+notes:
+  curation: ''
+value_list: WhenDVOccurred

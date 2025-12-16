@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: PrisonDischarge
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: PrisonDischarge
+notes:
+  curation: ''
+value_list: NoYesMissing

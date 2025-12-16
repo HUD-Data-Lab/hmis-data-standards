@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: DOBDataQuality
+description: ''
+type: integer
+sources:
+- openapi_schema: clientBase
+  openapi_field: DOBDataQuality
+notes:
+  curation: ''
+value_list: DOBDataQuality

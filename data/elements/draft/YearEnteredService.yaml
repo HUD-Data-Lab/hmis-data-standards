@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: YearEnteredService
+description: ''
+type: string
+sources:
+- openapi_schema: clientBase
+  openapi_field: YearEnteredService
+notes:
+  curation: ''

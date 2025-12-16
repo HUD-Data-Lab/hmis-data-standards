@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: DesertStorm
+description: ''
+type: integer
+sources:
+- openapi_schema: clientBase
+  openapi_field: DesertStorm
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

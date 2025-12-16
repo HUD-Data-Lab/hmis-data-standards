@@ -1,0 +1,25 @@
+status: draft
+id: LivingSituation
+description: Percentage of Area Median Income (AMI) that the client's income falls
+  into.
+type: integer
+values:
+- value: 1
+  label: 30_PERCENT_OR_LESS
+  description: 30% or less
+- value: 2
+  label: 31_TO_50_PERCENT
+  description: 31% to 50%
+- value: 3
+  label: 51_TO_80_PERCENT
+  description: 51% to 80%
+- value: 4
+  label: 81_PERCENT_OR_GREATER
+  description: 81% or greater
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: LivingSituation_list
+notes:
+  curation: ''

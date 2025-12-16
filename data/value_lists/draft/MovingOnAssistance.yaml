@@ -1,0 +1,24 @@
+status: draft
+id: MovingOnAssistance
+description: Types of assistance provided to help clients move on from the project.
+type: integer
+values:
+- value: 1
+  label: SUBSIDIZED_HOUSING_APPLICATION_ASSISTANCE
+  description: Subsidized housing application assistance
+- value: 2
+  label: FINANCIAL_ASSISTANCE_FOR_MOVING_ON
+  description: Financial assistance for Moving On
+- value: 3
+  label: NON_FINANCIAL_ASSISTANCE_FOR_MOVING_ON
+  description: Non-financial assistance for Moving On
+- value: 4
+  label: HOUSING_REFERRAL_PLACEMENT
+  description: Housing referral/placement
+- value: 5
+  label: OTHER
+  description: Other (please specify)
+source:
+  openapi_schema: MovingOnAssistance_list
+notes:
+  curation: ''

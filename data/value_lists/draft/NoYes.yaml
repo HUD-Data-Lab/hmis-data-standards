@@ -1,0 +1,15 @@
+status: draft
+id: NoYes
+description: Indicates a simple binary choice.
+type: integer
+values:
+- value: 0
+  label: 'NO'
+  description: 'No'
+- value: 1
+  label: 'YES'
+  description: 'Yes'
+source:
+  openapi_schema: NoYes_list
+notes:
+  curation: ''

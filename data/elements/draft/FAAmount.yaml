@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: FAAmount
+description: Financial assistance amount (if RecordType = 151 or 152)
+type: number
+sources:
+- openapi_schema: servicesBase
+  openapi_field: FAAmount
+notes:
+  curation: ''

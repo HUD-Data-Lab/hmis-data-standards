@@ -1,0 +1,20 @@
+status: draft
+hmis_id: null
+name: InformationDate
+description: ''
+type: string
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: InformationDate
+- openapi_schema: healthAndDVBase
+  openapi_field: InformationDate
+- openapi_schema: employmentEducationBase
+  openapi_field: InformationDate
+- openapi_schema: disabilitiesBase
+  openapi_field: InformationDate
+- openapi_schema: currentLivingSituationBase
+  openapi_field: InformationDate
+- openapi_schema: youthEducationStatusBase
+  openapi_field: InformationDate
+notes:
+  curation: ''

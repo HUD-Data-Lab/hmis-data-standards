@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: LengthOfStay
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: LengthOfStay
+notes:
+  curation: ''
+value_list: LengthOfStay

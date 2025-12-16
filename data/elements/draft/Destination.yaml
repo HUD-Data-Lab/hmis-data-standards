@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: Destination
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: Destination
+notes:
+  curation: ''
+value_list: LivingSituation

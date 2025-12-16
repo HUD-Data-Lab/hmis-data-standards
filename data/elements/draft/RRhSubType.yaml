@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: RRhSubType
+description: ''
+type: integer
+sources:
+- openapi_schema: projectBase
+  openapi_field: RRhSubType
+notes:
+  curation: ''
+value_list: RRHSubType

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: DirectServices
+description: ''
+type: integer
+sources:
+- openapi_schema: ceParticipationBase
+  openapi_field: DirectServices
+notes:
+  curation: ''
+value_list: NoYes

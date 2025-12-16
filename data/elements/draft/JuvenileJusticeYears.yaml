@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: JuvenileJusticeYears
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: JuvenileJusticeYears
+notes:
+  curation: ''
+value_list: RHYNumberofYears

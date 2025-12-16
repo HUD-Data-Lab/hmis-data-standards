@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: MovingOnOtherType
+description: Moving on other type (if RecordType = 300 and TypeProvided = 5)
+type: string
+sources:
+- openapi_schema: servicesBase
+  openapi_field: MovingOnOtherType
+notes:
+  curation: ''

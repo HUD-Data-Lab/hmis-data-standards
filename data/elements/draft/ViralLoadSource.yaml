@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ViralLoadSource
+description: Viral load source (if ViralLoad is not null)
+type: integer
+sources:
+- openapi_schema: disabilitiesBase
+  openapi_field: ViralLoadSource
+notes:
+  curation: ''
+value_list: TCellSourceViralLoadSource

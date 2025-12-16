@@ -1,0 +1,18 @@
+status: draft
+id: TCellSourceViralLoadSource
+description: Source of T-Cell count or viral load data.
+type: integer
+values:
+- value: 1
+  label: MEDICAL_REPORT
+  description: Medical Report
+- value: 2
+  label: CLIENT_REPORT
+  description: Client Report
+- value: 3
+  label: OTHER
+  description: Other
+source:
+  openapi_schema: TCellSourceViralLoadSource_list
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: SNAP
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: SNAP
+notes:
+  curation: ''
+value_list: NoYesMissing

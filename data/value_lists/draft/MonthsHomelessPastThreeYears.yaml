@@ -1,0 +1,57 @@
+status: draft
+id: MonthsHomelessPastThreeYears
+description: Total months the client has been homeless in the past three years.
+type: integer
+values:
+- value: 101
+  label: ONE_MONTH
+  description: 1 month
+- value: 102
+  label: TWO_MONTHS
+  description: 2 months
+- value: 103
+  label: THREE_MONTHS
+  description: 3 months
+- value: 104
+  label: FOUR_MONTHS
+  description: 4 months
+- value: 105
+  label: FIVE_MONTHS
+  description: 5 months
+- value: 106
+  label: SIX_MONTHS
+  description: 6 months
+- value: 107
+  label: SEVEN_MONTHS
+  description: 7 months
+- value: 108
+  label: EIGHT_MONTHS
+  description: 8 months
+- value: 109
+  label: NINE_MONTHS
+  description: 9 months
+- value: 110
+  label: TEN_MONTHS
+  description: 10 months
+- value: 111
+  label: ELEVEN_MONTHS
+  description: 11 months
+- value: 112
+  label: TWELVE_MONTHS
+  description: 12 months
+- value: 113
+  label: MORE_THAN_TWELVE_MONTHS
+  description: More than 12 months
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: MonthsHomelessPastThreeYears_list
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: CurrentSchoolAttend
+description: ''
+type: integer
+sources:
+- openapi_schema: youthEducationStatusBase
+  openapi_field: CurrentSchoolAttend
+notes:
+  curation: ''
+value_list: CurrentSchoolAttend

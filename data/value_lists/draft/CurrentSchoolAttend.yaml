@@ -1,0 +1,29 @@
+status: draft
+id: CurrentSchoolAttend
+description: Current school attendance status.
+type: integer
+values:
+- value: 0
+  label: NOT_ENROLLED
+  description: Not currently enrolled in any school or educational course
+- value: 1
+  label: ENROLLED_NOT_ATTENDING_REGULARLY
+  description: Currently enrolled but NOT attending regularly (when school or the
+    course is in session)
+- value: 2
+  label: ENROLLED_ATTENDING_REGULARLY
+  description: Currently enrolled and attending regularly (when school or the course
+    is in session)
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: CurrentSchoolAttend_list
+notes:
+  curation: ''

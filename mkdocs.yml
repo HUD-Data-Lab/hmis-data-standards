@@ -1,0 +1,15 @@
+site_name: HMIS Data Standards (Prototype)
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - macros
+  - gen-files
+
+nav:
+  - Home: index.md
+  - Data Dictionary: dictionary.md
+  - Data Manual: manual.md
+  - Elements: elements/

@@ -1,0 +1,60 @@
+status: draft
+id: Referral
+description: Type of Event or referral action taken.
+type: integer
+values:
+- value: 1
+  label: REFERRAL_TO_PREVENTION_ASSISTANCE_PROJECT
+  description: Referral to Prevention Assistance project
+- value: 2
+  label: PROBLEM_SOLVING_DIVERSION_RAPID_RESOLUTION
+  description: Problem Solving/Diversion/Rapid Resolution intervention or service
+- value: 3
+  label: REFERRAL_TO_SCHEDULED_CRISIS_NEEDS_ASSESSMENT
+  description: Referral to scheduled Coordinated Entry Crisis Needs Assessment
+- value: 4
+  label: REFERRAL_TO_SCHEDULED_HOUSING_NEEDS_ASSESSMENT
+  description: Referral to scheduled Coordinated Entry Housing Needs Assessment
+- value: 5
+  label: REFERRAL_TO_POST_PLACEMENT_FOLLOW_UP_CASE_MANAGEMENT
+  description: Referral to Post-placement/ follow-up case management
+- value: 6
+  label: REFERRAL_TO_STREET_OUTREACH_PROJECT
+  description: Referral to Street Outreach project or services
+- value: 7
+  label: REFERRAL_TO_HOUSING_NAVIGATION_PROJECT
+  description: Referral to Housing Navigation project or services
+- value: 8
+  label: REFERRAL_TO_NON_CONTINUUM_SERVICES_INELIGIBLE
+  description: 'Referral to Non-continuum services: Ineligible for continuum services'
+- value: 9
+  label: REFERRAL_TO_NON_CONTINUUM_SERVICES_NO_Availability
+  description: 'Referral to Non-continuum services: No Availability in continuum services'
+- value: 10
+  label: REFERRAL_TO_EMERGENCY_SHELTER_BED_OPENING
+  description: Referral to Emergency Shelter bed opening
+- value: 11
+  label: REFERRAL_TO_TRANSITIONAL_HOUSING_BED_OPENING
+  description: Referral to Transitional Housing bed/unit opening
+- value: 12
+  label: REFERRAL_TO_JOINT_TH_RRH_PROJECT_OPENING
+  description: Referral to Joint TH-RRH project/unit/resource opening
+- value: 13
+  label: REFERRAL_TO_RRH_PROJECT_RESOURCE_OPENING
+  description: Referral to RRH project resource opening
+- value: 14
+  label: REFERRAL_TO_PSH_PROJECT_RESOURCE_OPENING
+  description: Referral to PSH project resource opening
+- value: 15
+  label: REFERRAL_TO_OTHER_PH_PROJECT_RESOURCE_OPENING
+  description: Referral to Other PH project/unit/resource opening
+- value: 16
+  label: REFERRAL_TO_EMERGENCY_ASSISTANCE
+  description: Referral to emergency assistance/flex fund/furniture assistance
+- value: 18
+  label: REFERRAL_TO_HOUSING_STABILITY_VOUCHER
+  description: Referral to a Housing Stability Voucher
+source:
+  openapi_schema: Referral_list
+notes:
+  curation: ''

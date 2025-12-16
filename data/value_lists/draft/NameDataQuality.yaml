@@ -1,0 +1,24 @@
+status: draft
+id: NameDataQuality
+description: Indicates the data quality of the reported name.
+type: integer
+values:
+- value: 1
+  label: FULL_NAME_REPORTED
+  description: Full name reported
+- value: 2
+  label: PARTIAL_OR_CODE_NAME_REPORTED
+  description: Partial, street name, or code name reported
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: NameDataQuality_list
+notes:
+  curation: ''

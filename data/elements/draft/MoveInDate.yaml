@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: MoveInDate
+description: ''
+type: string
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: MoveInDate
+notes:
+  curation: ''

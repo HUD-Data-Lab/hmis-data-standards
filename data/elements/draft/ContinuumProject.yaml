@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: ContinuumProject
+description: ''
+type: integer
+sources:
+- openapi_schema: projectBase
+  openapi_field: ContinuumProject
+notes:
+  curation: ''
+value_list: NoYes

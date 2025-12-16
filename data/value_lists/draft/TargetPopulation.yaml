@@ -1,0 +1,18 @@
+status: draft
+id: TargetPopulation
+description: Identifies the target population for the project.
+type: integer
+values:
+- value: 1
+  label: DV_SURVIVOR_OF_DOMESTIC_VIOLENCE
+  description: Survivors of domestic violence
+- value: 3
+  label: HIV_PERSONS_WITH_HIV/AIDS
+  description: Persons with HIV/AIDS
+- value: 4
+  label: NA_NOT_APPLICABLE
+  description: Not applicable
+source:
+  openapi_schema: TargetPopulation_list
+notes:
+  curation: ''

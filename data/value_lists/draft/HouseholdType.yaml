@@ -1,0 +1,18 @@
+status: draft
+id: HouseholdType
+description: Defines the type of households served by the project.
+type: integer
+values:
+- value: 1
+  label: HOUSEHOLDS_WITHOUT_CHILDREN
+  description: Households without children
+- value: 3
+  label: HOUSEHOLDS_WITH_AT_LEAST_ONE_ADULT_AND_ONE_CHILD
+  description: Households with at least one adult and one child
+- value: 4
+  label: HOUSEHOLDS_WITH_ONLY_CHILDREN
+  description: Households with only children
+source:
+  openapi_schema: HouseholdType
+notes:
+  curation: ''

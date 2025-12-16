@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: UserLastName
+description: ''
+type: string
+sources:
+- openapi_schema: userBase
+  openapi_field: UserLastName
+notes:
+  curation: ''

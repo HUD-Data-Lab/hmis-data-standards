@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: CounselingReceived
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: CounselingReceived
+notes:
+  curation: ''
+value_list: NoYesMissing

@@ -1,0 +1,24 @@
+status: draft
+id: HOPWAFinancialAssistance
+description: Types of financial assistance provided under HOPWA.
+type: integer
+values:
+- value: 1
+  label: RENTAL_ASSISTANCE
+  description: Rental assistance
+- value: 2
+  label: SECURITY_DEPOSITS
+  description: Security deposits
+- value: 3
+  label: UTILITY_DEPOSITS
+  description: Utility deposits
+- value: 4
+  label: UTILITY_PAYMENTS
+  description: Utility payments
+- value: 7
+  label: MORTGAGE_ASSISTANCE
+  description: Mortgage assistance
+source:
+  openapi_schema: HOPWAFinancialAssistance_list
+notes:
+  curation: ''

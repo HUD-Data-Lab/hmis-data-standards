@@ -1,0 +1,43 @@
+status: draft
+id: HousingAssessmentAtExit
+description: Assessment of housing situation at the time of project exit.
+type: integer
+values:
+- value: 1
+  label: MAINTAINED_HOUSING
+  description: Able to maintain the housing they had at project entry
+- value: 2
+  label: MOVED_TO_NEW_HOUSING
+  description: Moved to new housing unit
+- value: 3
+  label: MOVED_IN_WITH_FAMILY_FRIENDS_TEMPORARILY
+  description: Moved in with family/friends on a temporary basis
+- value: 4
+  label: MOVED_IN_WITH_FAMILY_FRIENDS_PERMANENTLY
+  description: Moved in with family/friends on a permanent basis
+- value: 5
+  label: MOVED_TO_TRANSITIONAL_HOUSING
+  description: Moved to a transitional or temporary housing facility or program
+- value: 6
+  label: BECAME_HOMELESS
+  description: Client became homeless-moving to a shelter or other place unfit for
+    human habitation
+- value: 7
+  label: JAIL_PRISON
+  description: Jail/prison
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 10
+  label: DECEASED
+  description: Deceased
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: HousingAssessmentAtExit_list
+notes:
+  curation: ''

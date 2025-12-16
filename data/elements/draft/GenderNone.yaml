@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: GenderNone
+description: Non-null only if all other gender fields = 0
+type: integer
+sources:
+- openapi_schema: clientBase
+  openapi_field: GenderNone
+notes:
+  curation: ''
+value_list: RaceGenderNone

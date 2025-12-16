@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: EmploymentType
+description: ''
+type: integer
+sources:
+- openapi_schema: employmentEducationBase
+  openapi_field: EmploymentType
+notes:
+  curation: ''
+value_list: EmploymentType

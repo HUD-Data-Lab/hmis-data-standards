@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: TargetPopulation
+description: ''
+type: integer
+sources:
+- openapi_schema: projectBase
+  openapi_field: TargetPopulation
+notes:
+  curation: ''
+value_list: TargetPopulation

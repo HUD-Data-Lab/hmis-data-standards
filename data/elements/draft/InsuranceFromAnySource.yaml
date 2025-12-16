@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: InsuranceFromAnySource
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: InsuranceFromAnySource
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

@@ -1,0 +1,24 @@
+status: draft
+id: NoYesReasonsForMissingData
+description: Boolean with reasons for missing data.
+type: integer
+values:
+- value: 0
+  label: 'NO'
+  description: No, without additional context.
+- value: 1
+  label: 'YES'
+  description: Yes, without additional context.
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client does not know the answer.
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer.
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected.
+source:
+  openapi_schema: NoYesReasonsForMissingData_list
+notes:
+  curation: ''

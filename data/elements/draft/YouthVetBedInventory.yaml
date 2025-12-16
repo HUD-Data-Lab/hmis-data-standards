@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: YouthVetBedInventory
+description: ''
+type: integer
+sources:
+- openapi_schema: inventoryBase
+  openapi_field: YouthVetBedInventory
+notes:
+  curation: ''

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: CoercedToContinueWork
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: CoercedToContinueWork
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: AmIndAKNative
+description: ''
+type: integer
+sources:
+- openapi_schema: clientBase
+  openapi_field: AmIndAKNative
+notes:
+  curation: ''
+value_list: NoYes

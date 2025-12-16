@@ -1,0 +1,21 @@
+status: draft
+id: LiteralHomelessHistory
+description: History of literal homelessness.
+type: integer
+values:
+- value: 0
+  label: MOST_RECENT_IN_LAST_YEAR
+  description: Most recent episode occurred in the last year
+- value: 1
+  label: MOST_RECENT_MORE_THAN_ONE_YEAR_AGO
+  description: Most recent episode occurred more than one year ago
+- value: 2
+  label: NONE
+  description: None
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: LiteralHomelessHistory_list
+notes:
+  curation: ''

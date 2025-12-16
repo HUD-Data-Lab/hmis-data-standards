@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: CurrentEdStatus
+description: Current education status (if CurrentSchoolAttend = 1 or 2)
+type: integer
+sources:
+- openapi_schema: youthEducationStatusBase
+  openapi_field: CurrentEdStatus
+notes:
+  curation: ''
+value_list: CurrentEdStatus

@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: RaceNone
+description: Non-null only if all other race fields are 0 (UNKNOWN)
+type: integer
+sources:
+- openapi_schema: clientBase
+  openapi_field: RaceNone
+notes:
+  curation: ''
+value_list: RaceGenderNone

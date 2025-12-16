@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: FirstName
+description: First name of the client
+type: string
+sources:
+- openapi_schema: clientBase
+  openapi_field: FirstName
+notes:
+  curation: ''

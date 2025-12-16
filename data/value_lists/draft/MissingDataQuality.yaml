@@ -1,0 +1,24 @@
+status: draft
+id: MissingDataQuality
+description: 'Factored out the [Client Doesn''t Know], [Client perfers not to answer],
+  and [data not collected]
+
+  The intention is to limit the number of lists that we define throughout the API
+  reference.
+
+  '
+type: integer
+values:
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: null
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: null
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: null
+source:
+  openapi_schema: MissingDataQuality_list
+notes:
+  curation: ''

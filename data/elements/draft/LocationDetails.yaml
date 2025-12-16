@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: LocationDetails
+description: ''
+type: string
+sources:
+- openapi_schema: currentLivingSituationBase
+  openapi_field: LocationDetails
+notes:
+  curation: ''

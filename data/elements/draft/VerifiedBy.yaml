@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: VerifiedBy
+description: Verified by (if ProjectType = 14)
+type: string
+sources:
+- openapi_schema: currentLivingSituationBase
+  openapi_field: VerifiedBy
+notes:
+  curation: ''

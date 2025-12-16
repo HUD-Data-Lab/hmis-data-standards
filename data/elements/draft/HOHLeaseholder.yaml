@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: HOHLeaseholder
+description: ''
+type: integer
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: HOHLeaseholder
+notes:
+  curation: ''
+value_list: NoYesMissing

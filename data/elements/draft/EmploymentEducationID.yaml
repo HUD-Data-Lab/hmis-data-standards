@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: EmploymentEducationID
+description: ''
+type: string
+sources:
+- openapi_schema: employmentEducationPrimaryKey
+  openapi_field: EmploymentEducationID
+notes:
+  curation: ''

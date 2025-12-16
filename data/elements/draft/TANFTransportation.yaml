@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: TANFTransportation
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: TANFTransportation
+notes:
+  curation: ''
+value_list: NoYesMissing

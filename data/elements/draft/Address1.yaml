@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: Address1
+description: ''
+type: string
+sources:
+- openapi_schema: projectCoCBase
+  openapi_field: Address1
+notes:
+  curation: ''

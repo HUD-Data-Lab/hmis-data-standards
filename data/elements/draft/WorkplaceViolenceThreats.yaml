@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: WorkplaceViolenceThreats
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: WorkplaceViolenceThreats
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

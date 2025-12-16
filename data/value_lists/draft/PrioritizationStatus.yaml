@@ -1,0 +1,15 @@
+status: draft
+id: PrioritizationStatus
+description: Status in the prioritization list for housing.
+type: integer
+values:
+- value: 1
+  label: PLACED_ON_PRIORITIZATION_LIST
+  description: Placed on prioritization list
+- value: 2
+  label: NOT_PLACED_ON_PRIORITIZATION_LIST
+  description: Not placed on prioritization list
+source:
+  openapi_schema: PrioritizationStatus
+notes:
+  curation: ''

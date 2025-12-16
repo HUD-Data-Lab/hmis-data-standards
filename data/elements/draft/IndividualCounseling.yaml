@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: IndividualCounseling
+description: ''
+type: integer
+sources:
+- openapi_schema: exitBase
+  openapi_field: IndividualCounseling
+notes:
+  curation: ''
+value_list: NoYesMissing

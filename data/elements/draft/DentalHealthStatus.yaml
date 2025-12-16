@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: DentalHealthStatus
+description: ''
+type: integer
+sources:
+- openapi_schema: healthAndDVBase
+  openapi_field: DentalHealthStatus
+notes:
+  curation: ''
+value_list: HealthStatus

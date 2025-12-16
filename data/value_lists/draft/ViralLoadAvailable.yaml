@@ -1,0 +1,27 @@
+status: draft
+id: ViralLoadAvailable
+description: Availability of viral load data for the client.
+type: integer
+values:
+- value: 0
+  label: NOT_AVAILABLE
+  description: Not available
+- value: 1
+  label: AVAILABLE
+  description: Available
+- value: 2
+  label: UNDETECTABLE
+  description: Undetectable
+- value: 8
+  label: CLIENT_DOESNT_KNOW
+  description: Client doesn't know
+- value: 9
+  label: CLIENT_PREFERS_NOT_TO_ANSWER
+  description: Client prefers not to answer
+- value: 99
+  label: DATA_NOT_COLLECTED
+  description: Data not collected
+source:
+  openapi_schema: ViralLoadAvailable_list
+notes:
+  curation: ''

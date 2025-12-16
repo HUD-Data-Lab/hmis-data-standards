@@ -1,0 +1,45 @@
+status: draft
+id: VoucherTracking
+description: Tracking of housing vouchers issued to veterans.
+type: integer
+values:
+- value: 1
+  label: REFERRAL_PACKAGE_FORWARDED
+  description: Referral package forwarded to PHA
+- value: 2
+  label: VOUCHER_DENIED
+  description: Voucher denied by PHA
+- value: 3
+  label: VOUCHER_ISSUED
+  description: Voucher issued by PHA
+- value: 4
+  label: VOUCHER_REVOKED_OR_EXPIRED
+  description: Voucher revoked or expired
+- value: 5
+  label: VOUCHER_IN_USE
+  description: Voucher in use - veteran moved into housing
+- value: 6
+  label: VOUCHER_PORTED_LOCALLY
+  description: Voucher was ported locally
+- value: 7
+  label: VOUCHER_ABSORBED
+  description: Voucher was administratively absorbed by new PHA
+- value: 8
+  label: VOUCHER_CONVERTED
+  description: Voucher was converted to Housing Choice Voucher
+- value: 9
+  label: VETERAN_EXITED_RETURNED_VOUCHER
+  description: Veteran exited - voucher was returned
+- value: 10
+  label: VETERAN_EXITED_FAMILY_MAINTAINED_VOUCHER
+  description: Veteran exited - family maintained the voucher
+- value: 11
+  label: VETERAN_EXITED_PRIOR_TO_RECEIVING_VOUCHER
+  description: Veteran exited - prior to ever receiving a voucher
+- value: 12
+  label: OTHER
+  description: Other
+source:
+  openapi_schema: VoucherTracking_list
+notes:
+  curation: ''

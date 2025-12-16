@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: UnemploymentAmount
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: UnemploymentAmount
+notes:
+  curation: ''

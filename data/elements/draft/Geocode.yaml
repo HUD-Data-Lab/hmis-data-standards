@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: Geocode
+description: ''
+type: string
+sources:
+- openapi_schema: projectCoCBase
+  openapi_field: Geocode
+notes:
+  curation: ''

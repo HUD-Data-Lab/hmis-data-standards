@@ -1,0 +1,12 @@
+status: draft
+hmis_id: null
+name: LeaveSituation14Days
+description: Leave situation in 14 days (if CurrentLivingSituation in [215, 206, 207,
+  225, 204, 205, 302, 329, 314, 332, 336, 335, 410, 435, 421, 411])
+type: integer
+sources:
+- openapi_schema: currentLivingSituationBase
+  openapi_field: LeaveSituation14Days
+notes:
+  curation: ''
+value_list: NoYesReasonsForMissingData

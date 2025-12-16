@@ -1,0 +1,10 @@
+status: draft
+hmis_id: null
+name: DateOfEngagement
+description: ''
+type: string
+sources:
+- openapi_schema: enrollmentBase
+  openapi_field: DateOfEngagement
+notes:
+  curation: ''

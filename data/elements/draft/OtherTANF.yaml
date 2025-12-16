@@ -1,0 +1,11 @@
+status: draft
+hmis_id: null
+name: OtherTANF
+description: ''
+type: integer
+sources:
+- openapi_schema: incomeBenefitsBase
+  openapi_field: OtherTANF
+notes:
+  curation: ''
+value_list: NoYesMissing

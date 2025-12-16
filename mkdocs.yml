@@ -2,6 +2,11 @@ site_name: HMIS Data Standards (Prototype)
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - search.highlight
+    - search.suggest
 
 plugins:
   - search
@@ -13,6 +18,17 @@ plugins:
 
 nav:
   - Home: index.md
-  - Data Dictionary: dictionary.md
-  - Data Manual: manual.md
-  - Elements: elements/
+  - Data Dictionary:
+      - Elements: 
+          - 'All Elements': elements/index.md
+          - !!accordion "Elements Tree":
+              'Elements': 
+                - type: glob
+                  glob: "elements/*.md"
+  - Value Lists:
+      - 'All Value Lists': value-lists/index.md
+      - !!accordion "Lists Tree":
+          'Lists':
+            - type: glob
+              glob: "value-lists/*.md"
+

@@ -90,7 +90,7 @@ for path in sorted(ELEMENTS_DIR.glob("*.yaml")):
 
     count += 1
 
-with mkdocs_gen_files.open("elements-index.md", "w") as f:
+with mkdocs_gen_files.open("elements/index.md", "w") as f:
     f.write("# Data Elements\n\n")
     f.write("| Element | HMIS ID | Type |\n")
     f.write("|--------|---------|------|\n")
@@ -99,6 +99,6 @@ with mkdocs_gen_files.open("elements-index.md", "w") as f:
         name = el.get("name", "")
         hmis_id = el.get("hmis_id", "")
         type_ = el.get("type", "")
-        f.write(f"| [{name}](./{name}.md) | {hmis_id} | {type_} |\n")
+        f.write(f"| [{name}](./{name}/) | {hmis_id} | {type_} |\n")
 
 print(f"Generated {count} element documentation pages.")
